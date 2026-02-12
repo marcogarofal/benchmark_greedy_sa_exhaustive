@@ -15,7 +15,7 @@ python3 plot_multi_algorithm.py --all
 
 
 
-## for debugging in benchmark_multi_algorithm modify:
+## for debugging in "benchmark_multi_algorithm" modify:
 
     #debug_config = {'verbose': True, 'save_plots': False}
     debug_config = {'verbose': False, 'save_plots': False}
