@@ -22,15 +22,15 @@
     "5": [
       {
         "seed": 1,
-        "success": false,
-        "cost": Infinity
+        "success": true,
+        "cost": 0.2591831140350877
       }
     ],
     "6": [
       {
         "seed": 1,
         "success": true,
-        "cost": 0.1384433305485937
+        "cost": 0.17614330767271946
       }
     ],
     "7": [
@@ -43,15 +43,15 @@
     "8": [
       {
         "seed": 1,
-        "success": false,
-        "cost": Infinity
+        "success": true,
+        "cost": 0.1046142372823395
       }
     ],
     "9": [
       {
         "seed": 1,
-        "success": false,
-        "cost": Infinity
+        "success": true,
+        "cost": 0.12807136832475227
       }
     ]
   },
@@ -79,30 +79,52 @@
   },
   "statistics": {
     "5": {
-      "n": 0,
-      "success_rate": 0.0
+      "n": 1,
+      "n_total": 1,
+      "success_rate": 1.0,
+      "cost_mean": 0.2591831140350877,
+      "cost_std": 0.0,
+      "cost_median": 0.2591831140350877,
+      "cost_min": 0.2591831140350877,
+      "cost_max": 0.2591831140350877,
+      "cost_cv": 0.0,
+      "time_mean": 0.16008520126342773,
+      "time_std": 0.0,
+      "time_median": 0.16008520126342773,
+      "time_min": 0.16008520126342773,
+      "time_max": 0.16008520126342773,
+      "discretionary_used_mean": 2.0,
+      "quality": {
+        "match_rate": 0.0,
+        "cost_diff_mean": 0.05829025689223055,
+        "cost_diff_std": 0.0,
+        "cost_ratio_mean": 1.2901559454191032,
+        "cost_ratio_std": 0.0,
+        "node_overlap_mean": 1.0,
+        "edge_overlap_mean": 1.0
+      }
     },
     "6": {
       "n": 1,
       "n_total": 1,
       "success_rate": 1.0,
-      "cost_mean": 0.1384433305485937,
+      "cost_mean": 0.17614330767271946,
       "cost_std": 0.0,
-      "cost_median": 0.1384433305485937,
-      "cost_min": 0.1384433305485937,
-      "cost_max": 0.1384433305485937,
+      "cost_median": 0.17614330767271946,
+      "cost_min": 0.17614330767271946,
+      "cost_max": 0.17614330767271946,
       "cost_cv": 0.0,
-      "time_mean": 0.18079662322998047,
+      "time_mean": 0.20468354225158691,
       "time_std": 0.0,
-      "time_median": 0.18079662322998047,
-      "time_min": 0.18079662322998047,
-      "time_max": 0.18079662322998047,
-      "discretionary_used_mean": 2.0,
+      "time_median": 0.20468354225158691,
+      "time_min": 0.20468354225158691,
+      "time_max": 0.20468354225158691,
+      "discretionary_used_mean": 3.0,
       "quality": {
-        "match_rate": 1.0,
-        "cost_diff_mean": 0.0,
+        "match_rate": 0.0,
+        "cost_diff_mean": 0.03769997712412576,
         "cost_diff_std": 0.0,
-        "cost_ratio_mean": 1.0,
+        "cost_ratio_mean": 1.27231342221208,
         "cost_ratio_std": 0.0,
         "node_overlap_mean": 1.0,
         "edge_overlap_mean": 1.0
@@ -118,11 +140,11 @@
       "cost_min": 0.18379838485101643,
       "cost_max": 0.18379838485101643,
       "cost_cv": 0.0,
-      "time_mean": 0.23836421966552734,
+      "time_mean": 0.22156310081481934,
       "time_std": 0.0,
-      "time_median": 0.23836421966552734,
-      "time_min": 0.23836421966552734,
-      "time_max": 0.23836421966552734,
+      "time_median": 0.22156310081481934,
+      "time_min": 0.22156310081481934,
+      "time_max": 0.22156310081481934,
       "discretionary_used_mean": 3.0,
       "quality": {
         "match_rate": 0.0,
@@ -135,15 +157,59 @@
       }
     },
     "8": {
-      "n": 0,
-      "success_rate": 0.0
+      "n": 1,
+      "n_total": 1,
+      "success_rate": 1.0,
+      "cost_mean": 0.1046142372823395,
+      "cost_std": 0.0,
+      "cost_median": 0.1046142372823395,
+      "cost_min": 0.1046142372823395,
+      "cost_max": 0.1046142372823395,
+      "cost_cv": 0.0,
+      "time_mean": 0.2735722064971924,
+      "time_std": 0.0,
+      "time_median": 0.2735722064971924,
+      "time_min": 0.2735722064971924,
+      "time_max": 0.2735722064971924,
+      "discretionary_used_mean": 4.0,
+      "quality": {
+        "match_rate": 0.0,
+        "cost_diff_mean": 0.001776643865201502,
+        "cost_diff_std": 0.0,
+        "cost_ratio_mean": 0.9833007881311023,
+        "cost_ratio_std": 0.0,
+        "node_overlap_mean": 1.0,
+        "edge_overlap_mean": 0.5
+      }
     },
     "9": {
-      "n": 0,
-      "success_rate": 0.0
+      "n": 1,
+      "n_total": 1,
+      "success_rate": 1.0,
+      "cost_mean": 0.12807136832475227,
+      "cost_std": 0.0,
+      "cost_median": 0.12807136832475227,
+      "cost_min": 0.12807136832475227,
+      "cost_max": 0.12807136832475227,
+      "cost_cv": 0.0,
+      "time_mean": 0.3417489528656006,
+      "time_std": 0.0,
+      "time_median": 0.3417489528656006,
+      "time_min": 0.3417489528656006,
+      "time_max": 0.3417489528656006,
+      "discretionary_used_mean": 4.0,
+      "quality": {
+        "match_rate": 0.0,
+        "cost_diff_mean": 0.02168048717721127,
+        "cost_diff_std": 0.0,
+        "cost_ratio_mean": 1.2037814420123578,
+        "cost_ratio_std": 0.0,
+        "node_overlap_mean": 1.0,
+        "edge_overlap_mean": 0.8333333333333334
+      }
     }
   },
-  "timestamp_started": "2026-02-11 08:48:02",
-  "total_execution_time": 0.42699718475341797,
-  "timestamp_updated": "2026-02-11 08:48:03"
+  "timestamp_started": "2026-02-12 09:52:43",
+  "total_execution_time": 1.2038543224334717,
+  "timestamp_updated": "2026-02-12 09:52:44"
 }

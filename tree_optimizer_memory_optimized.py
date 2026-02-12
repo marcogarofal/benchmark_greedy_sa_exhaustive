@@ -62,20 +62,66 @@ class CombinationGraph:
                 return False
         return True
 
+    # def are_discretionary_nodes_singularly_connected(self, edges, discretionary_nodes, check_only_discretionary, check_no_mandatory):
+    #     if check_only_discretionary:
+    #         return True
+    #     graph = {}
+    #     for edge in edges:
+    #         u, v = edge
+    #         if u not in graph:
+    #             graph[u] = []
+    #         if v not in graph:
+    #             graph[v] = []
+    #         graph[u].append(v)
+    #         graph[v].append(u)
+    #     return all(len(graph[node]) > 1 for node in discretionary_nodes if node in graph)
+
     def are_discretionary_nodes_singularly_connected(self, edges, discretionary_nodes, check_only_discretionary, check_no_mandatory):
+        """
+        FIXED: Check that discretionary nodes in the tree connect to weak or mandatory
+        """
         if check_only_discretionary:
             return True
+        
+        # Build graph from edges
         graph = {}
+        nodes_in_tree = set()
+        
         for edge in edges:
             u, v = edge
+            nodes_in_tree.add(u)
+            nodes_in_tree.add(v)
+            
             if u not in graph:
                 graph[u] = []
             if v not in graph:
                 graph[v] = []
             graph[u].append(v)
             graph[v].append(u)
-        return all(len(graph[node]) > 1 for node in discretionary_nodes if node in graph)
-
+        
+        # Check only discretionary nodes that are IN THIS TREE
+        discretionary_in_tree = [n for n in discretionary_nodes if n in nodes_in_tree]
+        
+        # OLD CHECK: all(len(graph[node]) > 1 for node in discretionary_in_tree)
+        # NEW CHECK: each discretionary must connect to weak or mandatory
+        
+        # Get weak and mandatory nodes (nodes NOT in discretionary list)
+        weak_and_mandatory = nodes_in_tree - set(discretionary_nodes)
+        
+        for disc_node in discretionary_in_tree:
+            if disc_node not in graph:
+                continue
+            
+            neighbors = graph[disc_node]
+            
+            # Check if at least one neighbor is weak or mandatory
+            has_useful_connection = any(n in weak_and_mandatory for n in neighbors)
+            
+            if not has_useful_connection:
+                # This discretionary only connects to other discretionary - INVALID
+                return False
+        
+        return True
 
     def filter_combinations_discretionary(self, weak_nodes, power_nodes_mandatory, power_nodes_discretionary, check_only_discretionary, check_no_mandatory):
         """

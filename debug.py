@@ -15,7 +15,7 @@ print("="*100)
 print("COMPLETE SOLUTION COMPARISON - NODE 5, SEED 1")
 print("="*100)
 
-num_nodes = 5
+num_nodes = 8
 seed = 1
 
 # Ricalcola configurazione ESATTA come fa run_single_test()
