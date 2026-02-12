@@ -297,13 +297,172 @@ def calculate_quality_metrics(solution_algo, solution_exhaustive):
     }
 
 
-def run_single_test(num_nodes, disc_ratio, algorithm, seed, cap_config, weight_strategy):
-    """Run a single test"""
+# def run_single_test(num_nodes, disc_ratio, algorithm, seed, cap_config, weight_strategy):
+#     """Run a single test"""
     
-    # Calculate base nodes
-    num_weak_base = int(num_nodes * BASE_CONFIG['weak_ratio'])
-    num_mandatory_base = int(num_nodes * BASE_CONFIG['mandatory_ratio'])
+#     # Calculate base nodes
+#     num_weak_base = int(num_nodes * BASE_CONFIG['weak_ratio'])
+#     num_mandatory_base = int(num_nodes * BASE_CONFIG['mandatory_ratio'])
+#     num_discretionary = int(num_nodes * disc_ratio)
+    
+#     graph_config_dict = generate_graph_config(
+#         num_weak=num_weak_base,
+#         num_mandatory=num_mandatory_base,
+#         num_discretionary=num_discretionary,
+#         seed=seed
+#     )
+    
+#     all_nodes = (graph_config_dict['weak_nodes'] +
+#                 graph_config_dict['power_nodes_mandatory'] +
+#                 graph_config_dict['power_nodes_discretionary'])
+    
+#     # Generate capacities
+#     import random
+#     rng = random.Random(seed)
+#     capacities = {}
+    
+#     for node in graph_config_dict['weak_nodes']:
+#         capacities[node] = float('inf')
+    
+#     actual_num_nodes = len(all_nodes)
+    
+#     mand_min = max(1, int(actual_num_nodes * cap_config['mandatory']['min_mult']))
+#     mand_max = max(mand_min + 1, int(actual_num_nodes * cap_config['mandatory']['max_mult']))
+#     for node in graph_config_dict['power_nodes_mandatory']:
+#         capacities[node] = rng.randint(mand_min, mand_max)
+    
+#     disc_min = max(1, int(actual_num_nodes * cap_config['discretionary']['min_mult']))
+#     disc_max = max(disc_min + 1, int(actual_num_nodes * cap_config['discretionary']['max_mult']))
+#     for node in graph_config_dict['power_nodes_discretionary']:
+#         capacities[node] = rng.randint(disc_min, disc_max)
+    
+#     # Create graph
+#     shared_graph = create_graph_with_strategy(
+#         graph_config_dict['weak_nodes'],
+#         graph_config_dict['power_nodes_mandatory'],
+#         graph_config_dict['power_nodes_discretionary'],
+#         capacities,
+#         weight_strategy,
+#         seed
+#     )
+    
+#     # CRITICAL FIX: Calculate global_max_weight from the original graph
+#     global_max_weight = max(shared_graph[u][v]['weight'] for u, v in shared_graph.edges())
+    
+#     graph_config = {
+#         'weak_nodes': graph_config_dict['weak_nodes'],
+#         'power_nodes_mandatory': graph_config_dict['power_nodes_mandatory'],
+#         'power_nodes_discretionary': graph_config_dict['power_nodes_discretionary'],
+#         'capacities': capacities
+#     }
+    
+#     #debug_config = {'verbose': True, 'save_plots': False}
+#     debug_config = {'verbose': False, 'save_plots': False}
+#     start_time = time.time()
+    
+#     try:
+#         if algorithm == 'exhaustive':
+#             result = run_exhaustive(
+#                 graph_config=graph_config,
+#                 algorithm_config={'seed': seed},
+#                 debug_config=debug_config,
+#                 pre_built_graph=shared_graph
+#             )
+#             best_tree = result['best_tree']
+            
+#         elif algorithm == 'greedy':
+#             result = run_greedy_algorithm(
+#                 graph_config=graph_config,
+#                 algorithm_config={'seed': seed, 'alpha': GREEDY_CONFIG['alpha']},
+#                 pre_built_graph=shared_graph
+#             )
+#             best_tree = result['best_tree']
+            
+#         elif algorithm == 'sa':
+#             result = run_sa_algorithm(
+#                 graph_config=graph_config,
+#                 algorithm_config={
+#                     'seed': seed,
+#                     'initial_temperature': SA_CONFIG['initial_temperature'],
+#                     'k_factor': SA_CONFIG['k_factor']
+#                 },
+#                 pre_built_graph=shared_graph
+#             )
+#             best_tree = result['best_tree']
+        
+#         else:
+#             raise ValueError(f"Unknown algorithm: {algorithm}")
+        
+#         execution_time = time.time() - start_time
+        
+#         # FIXED: Pass global_max_weight to calculate_solution_metrics
+#         metrics = calculate_solution_metrics(
+#             best_tree,
+#             capacities,
+#             graph_config_dict['power_nodes_mandatory'],
+#             graph_config_dict['power_nodes_discretionary'],
+#             graph_config_dict['weak_nodes'],
+#             global_max_weight  # ← ADDED
+#         )
+        
+#         metrics['execution_time'] = execution_time
+#         metrics['success'] = True
+        
+#         # Save solution if exhaustive (for quality comparison)
+#         if algorithm == 'exhaustive':
+#             save_solution_to_file(
+#                 num_nodes, seed,
+#                 metrics['solution_nodes'],
+#                 metrics['solution_edges'],
+#                 metrics['total_cost'],
+#                 algorithm, disc_ratio
+#             )
+        
+#     except Exception as e:
+#         execution_time = time.time() - start_time
+#         metrics = {
+#             'edge_cost': float('inf'),
+#             'degree_cost': float('inf'),
+#             'total_cost': float('inf'),
+#             'discretionary_used': 0,
+#             'num_nodes': 0,
+#             'num_edges': 0,
+#             'solution_nodes': [],
+#             'solution_edges': [],
+#             'execution_time': execution_time,
+#             'success': False,
+#             'error': str(e)
+#         }
+    
+#     return metrics
+
+
+def run_single_test(num_nodes, disc_ratio, algorithm, seed, cap_config, weight_strategy):
+    """
+    Run a single test
+    
+    FIXED: Discretionary ratio is FIXED percentage of total nodes,
+           weak and mandatory split the REMAINING nodes proportionally
+    """
+    
+    # FIXED: disc_ratio è percentuale FISSA del totale
     num_discretionary = int(num_nodes * disc_ratio)
+    
+    # Il rimanente si divide tra weak e mandatory secondo BASE_CONFIG
+    remaining_nodes = num_nodes - num_discretionary
+    
+    weak_ratio = BASE_CONFIG['weak_ratio']          # 0.4
+    mandatory_ratio = BASE_CONFIG['mandatory_ratio']  # 0.3
+    total_base_ratio = weak_ratio + mandatory_ratio    # 0.7
+    
+    # Weak e mandatory sono percentuali RELATIVE del rimanente
+    if total_base_ratio > 0:
+        num_weak_base = int(remaining_nodes * (weak_ratio / total_base_ratio))
+        num_mandatory_base = remaining_nodes - num_weak_base
+    else:
+        # Fallback se entrambi i ratio sono 0
+        num_weak_base = 0
+        num_mandatory_base = remaining_nodes
     
     graph_config_dict = generate_graph_config(
         num_weak=num_weak_base,
@@ -356,7 +515,6 @@ def run_single_test(num_nodes, disc_ratio, algorithm, seed, cap_config, weight_s
         'capacities': capacities
     }
     
-    #debug_config = {'verbose': True, 'save_plots': False}
     debug_config = {'verbose': False, 'save_plots': False}
     start_time = time.time()
     
