@@ -1,0 +1,170 @@
+{
+  "configuration": {
+    "discretionary_ratio": 0.5,
+    "algorithm": "exhaustive",
+    "has_quality": false,
+    "capacity_config": {
+      "name": "high_contrast",
+      "type": "scaled",
+      "mandatory": {
+        "min_mult": 0.8,
+        "max_mult": 1.2
+      },
+      "discretionary": {
+        "min_mult": 6.0,
+        "max_mult": 10.0
+      }
+    },
+    "weight_strategy": "strong_favor"
+  },
+  "max_seed": 1,
+  "data": {
+    "5": [
+      {
+        "seed": 1,
+        "success": true,
+        "cost": 0.20089285714285715
+      }
+    ],
+    "6": [
+      {
+        "seed": 1,
+        "success": true,
+        "cost": 0.1384433305485937
+      }
+    ],
+    "7": [
+      {
+        "seed": 1,
+        "success": true,
+        "cost": 0.13695697577276525
+      }
+    ],
+    "8": [
+      {
+        "seed": 1,
+        "success": true,
+        "cost": 0.106390881147541
+      }
+    ],
+    "9": [
+      {
+        "seed": 1,
+        "success": true,
+        "cost": 0.106390881147541
+      }
+    ]
+  },
+  "nodes_status": {
+    "5": {
+      "complete_up_to_seed": 1,
+      "status": "complete"
+    },
+    "6": {
+      "complete_up_to_seed": 1,
+      "status": "complete"
+    },
+    "7": {
+      "complete_up_to_seed": 1,
+      "status": "complete"
+    },
+    "8": {
+      "complete_up_to_seed": 1,
+      "status": "complete"
+    },
+    "9": {
+      "complete_up_to_seed": 1,
+      "status": "complete"
+    }
+  },
+  "statistics": {
+    "5": {
+      "n": 1,
+      "n_total": 1,
+      "success_rate": 1.0,
+      "cost_mean": 0.20089285714285715,
+      "cost_std": 0.0,
+      "cost_median": 0.20089285714285715,
+      "cost_min": 0.20089285714285715,
+      "cost_max": 0.20089285714285715,
+      "cost_cv": 0.0,
+      "time_mean": 0.003377199172973633,
+      "time_std": 0.0,
+      "time_median": 0.003377199172973633,
+      "time_min": 0.003377199172973633,
+      "time_max": 0.003377199172973633,
+      "discretionary_used_mean": 1.0
+    },
+    "6": {
+      "n": 1,
+      "n_total": 1,
+      "success_rate": 1.0,
+      "cost_mean": 0.1384433305485937,
+      "cost_std": 0.0,
+      "cost_median": 0.1384433305485937,
+      "cost_min": 0.1384433305485937,
+      "cost_max": 0.1384433305485937,
+      "cost_cv": 0.0,
+      "time_mean": 0.01817464828491211,
+      "time_std": 0.0,
+      "time_median": 0.01817464828491211,
+      "time_min": 0.01817464828491211,
+      "time_max": 0.01817464828491211,
+      "discretionary_used_mean": 2.0
+    },
+    "7": {
+      "n": 1,
+      "n_total": 1,
+      "success_rate": 1.0,
+      "cost_mean": 0.13695697577276525,
+      "cost_std": 0.0,
+      "cost_median": 0.13695697577276525,
+      "cost_min": 0.13695697577276525,
+      "cost_max": 0.13695697577276525,
+      "cost_cv": 0.0,
+      "time_mean": 0.25241827964782715,
+      "time_std": 0.0,
+      "time_median": 0.25241827964782715,
+      "time_min": 0.25241827964782715,
+      "time_max": 0.25241827964782715,
+      "discretionary_used_mean": 2.0
+    },
+    "8": {
+      "n": 1,
+      "n_total": 1,
+      "success_rate": 1.0,
+      "cost_mean": 0.106390881147541,
+      "cost_std": 0.0,
+      "cost_median": 0.106390881147541,
+      "cost_min": 0.106390881147541,
+      "cost_max": 0.106390881147541,
+      "cost_cv": 0.0,
+      "time_mean": 54.54027795791626,
+      "time_std": 0.0,
+      "time_median": 54.54027795791626,
+      "time_min": 54.54027795791626,
+      "time_max": 54.54027795791626,
+      "discretionary_used_mean": 2.0
+    },
+    "9": {
+      "n": 1,
+      "n_total": 1,
+      "success_rate": 1.0,
+      "cost_mean": 0.106390881147541,
+      "cost_std": 0.0,
+      "cost_median": 0.106390881147541,
+      "cost_min": 0.106390881147541,
+      "cost_max": 0.106390881147541,
+      "cost_cv": 0.0,
+      "time_mean": 54.06312108039856,
+      "time_std": 0.0,
+      "time_median": 54.06312108039856,
+      "time_min": 54.06312108039856,
+      "time_max": 54.06312108039856,
+      "discretionary_used_mean": 2.0
+    }
+  },
+  "timestamp_started": "2026-02-11 08:38:29",
+  "total_execution_time": 108.88168931007385,
+  "timestamp_updated": "2026-02-11 08:40:18"
+}
