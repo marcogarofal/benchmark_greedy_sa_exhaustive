@@ -1,0 +1,270 @@
+{
+  "configuration": {
+    "discretionary_ratio": 0.1,
+    "algorithm": "greedy",
+    "has_quality": false,
+    "capacity_config": {
+      "name": "high_contrast",
+      "type": "scaled",
+      "mandatory": {
+        "min_mult": 0.8,
+        "max_mult": 1.2
+      },
+      "discretionary": {
+        "min_mult": 6.0,
+        "max_mult": 10.0
+      }
+    },
+    "weight_strategy": "strong_favor"
+  },
+  "max_seed": 400,
+  "data": {
+    "5": [
+      {
+        "seed": 1,
+        "success": true,
+        "cost": 1.0166666666666666
+      },
+      {
+        "seed": 2,
+        "success": true,
+        "cost": 1.1206896551724137
+      },
+      {
+        "seed": 3,
+        "success": true,
+        "cost": 1.0138888888888888
+      },
+      {
+        "seed": 4,
+        "success": true,
+        "cost": 0.9366666666666665
+      },
+      {
+        "seed": 5,
+        "success": true,
+        "cost": 0.9249999999999999
+      }
+    ],
+    "6": [
+      {
+        "seed": 1,
+        "success": true,
+        "cost": 0.9
+      },
+      {
+        "seed": 2,
+        "success": true,
+        "cost": 0.98
+      },
+      {
+        "seed": 3,
+        "success": true,
+        "cost": 1.0577777777777777
+      },
+      {
+        "seed": 4,
+        "success": true,
+        "cost": 0.922962962962963
+      },
+      {
+        "seed": 5,
+        "success": true,
+        "cost": 0.9133333333333333
+      }
+    ],
+    "7": [
+      {
+        "seed": 1,
+        "success": true,
+        "cost": 0.8383597883597884
+      },
+      {
+        "seed": 2,
+        "success": true,
+        "cost": 1.0666666666666667
+      },
+      {
+        "seed": 3,
+        "success": true,
+        "cost": 1.0587301587301587
+      },
+      {
+        "seed": 4,
+        "success": true,
+        "cost": 0.8915343915343915
+      },
+      {
+        "seed": 5,
+        "success": true,
+        "cost": 0.8301587301587302
+      }
+    ],
+    "8": [
+      {
+        "seed": 1,
+        "success": true,
+        "cost": 0.7204931972789115
+      },
+      {
+        "seed": 2,
+        "success": true,
+        "cost": 0.8351190476190475
+      },
+      {
+        "seed": 3,
+        "success": true,
+        "cost": 0.8294642857142857
+      },
+      {
+        "seed": 4,
+        "success": true,
+        "cost": 0.7181122448979591
+      },
+      {
+        "seed": 5,
+        "success": true,
+        "cost": 0.6922619047619047
+      }
+    ],
+    "9": [
+      {
+        "seed": 1,
+        "success": true,
+        "cost": 0.6934027777777778
+      },
+      {
+        "seed": 2,
+        "success": true,
+        "cost": 0.8340277777777778
+      },
+      {
+        "seed": 3,
+        "success": true,
+        "cost": 0.7951388888888888
+      },
+      {
+        "seed": 4,
+        "success": true,
+        "cost": 0.7674479166666666
+      },
+      {
+        "seed": 5,
+        "success": true,
+        "cost": 0.6631944444444444
+      }
+    ]
+  },
+  "nodes_status": {
+    "5": {
+      "complete_up_to_seed": 400,
+      "status": "complete"
+    },
+    "6": {
+      "complete_up_to_seed": 400,
+      "status": "complete"
+    },
+    "7": {
+      "complete_up_to_seed": 400,
+      "status": "complete"
+    },
+    "8": {
+      "complete_up_to_seed": 400,
+      "status": "complete"
+    },
+    "9": {
+      "complete_up_to_seed": 400,
+      "status": "complete"
+    }
+  },
+  "statistics": {
+    "5": {
+      "n": 400,
+      "n_total": 400,
+      "success_rate": 1.0,
+      "cost_mean": 1.0065994836594911,
+      "cost_std": 0.09434078192609581,
+      "cost_median": 1.0043345543345543,
+      "cost_min": 0.7694444444444444,
+      "cost_max": 1.2962962962962963,
+      "cost_cv": 9.372226338038644,
+      "time_mean": 0.0004401719570159912,
+      "time_std": 0.00016750652567830822,
+      "time_median": 0.00040030479431152344,
+      "time_min": 0.0003285408020019531,
+      "time_max": 0.0020318031311035156,
+      "discretionary_used_mean": 0.0
+    },
+    "6": {
+      "n": 400,
+      "n_total": 400,
+      "success_rate": 1.0,
+      "cost_mean": 0.9352509060447853,
+      "cost_std": 0.08184182254688387,
+      "cost_median": 0.9291697191697192,
+      "cost_min": 0.7019047619047619,
+      "cost_max": 1.1645714285714286,
+      "cost_cv": 8.750787838634267,
+      "time_mean": 0.00045511364936828613,
+      "time_std": 7.787328998181722e-05,
+      "time_median": 0.00042688846588134766,
+      "time_min": 0.00037217140197753906,
+      "time_max": 0.0008249282836914062,
+      "discretionary_used_mean": 0.0
+    },
+    "7": {
+      "n": 400,
+      "n_total": 400,
+      "success_rate": 1.0,
+      "cost_mean": 0.911860798551172,
+      "cost_std": 0.07102114681695346,
+      "cost_median": 0.9109514687100895,
+      "cost_min": 0.716931216931217,
+      "cost_max": 1.15,
+      "cost_cv": 7.788595247190888,
+      "time_mean": 0.0005223870277404786,
+      "time_std": 0.00010308286996231441,
+      "time_median": 0.0004949569702148438,
+      "time_min": 0.0004165172576904297,
+      "time_max": 0.0014874935150146484,
+      "discretionary_used_mean": 0.0
+    },
+    "8": {
+      "n": 400,
+      "n_total": 400,
+      "success_rate": 1.0,
+      "cost_mean": 0.7971519573173359,
+      "cost_std": 0.056060945617601915,
+      "cost_median": 0.7951105442176871,
+      "cost_min": 0.6561224489795918,
+      "cost_max": 0.9574404761904761,
+      "cost_cv": 7.03265482860563,
+      "time_mean": 0.000827099084854126,
+      "time_std": 0.0020415634019187757,
+      "time_median": 0.0006239414215087891,
+      "time_min": 0.0005233287811279297,
+      "time_max": 0.024815797805786133,
+      "discretionary_used_mean": 0.0
+    },
+    "9": {
+      "n": 400,
+      "n_total": 400,
+      "success_rate": 1.0,
+      "cost_mean": 0.7818902777558489,
+      "cost_std": 0.04730100692754461,
+      "cost_median": 0.7802083333333334,
+      "cost_min": 0.6493055555555556,
+      "cost_max": 0.9125000000000001,
+      "cost_cv": 6.04957092743321,
+      "time_mean": 0.0007171475887298584,
+      "time_std": 0.0001066563736928605,
+      "time_median": 0.0006899833679199219,
+      "time_min": 0.0005860328674316406,
+      "time_max": 0.0012476444244384766,
+      "discretionary_used_mean": 0.0
+    }
+  },
+  "timestamp_started": "2026-02-12 11:17:18",
+  "total_execution_time": 0.774327278137207,
+  "timestamp_updated": "2026-02-13 15:29:12"
+}

@@ -1,0 +1,220 @@
+nohup: ignoring input
+
+====================================================================================================
+MULTI-ALGORITHM BENCHMARK CONFIGURATIONS
+====================================================================================================
+
+ 1. 10pct_exhaustive
+    Discretionary: 10% | Algorithm: exhaustive
+    📂 Checkpoint: 200 seeds, nodes [5, 6, 7, 8, 9]
+
+ 2. 10pct_greedy
+    Discretionary: 10% | Algorithm: greedy
+    📂 Checkpoint: 200 seeds, nodes [5, 6, 7, 8, 9]
+
+ 3. 10pct_sa
+    Discretionary: 10% | Algorithm: sa
+
+ 4. 30pct_exhaustive
+    Discretionary: 30% | Algorithm: exhaustive
+    📂 Checkpoint: 200 seeds, nodes [5, 6, 7, 8, 9]
+
+ 5. 30pct_greedy
+    Discretionary: 30% | Algorithm: greedy
+    📂 Checkpoint: 200 seeds, nodes [5, 6, 7, 8, 9]
+
+ 6. 30pct_sa
+    Discretionary: 30% | Algorithm: sa
+
+ 7. 50pct_exhaustive
+    Discretionary: 50% | Algorithm: exhaustive
+    📂 Checkpoint: 200 seeds, nodes [5, 6, 7, 8, 9]
+
+ 8. 50pct_greedy
+    Discretionary: 50% | Algorithm: greedy
+    ⭐ Includes QUALITY metrics (vs exhaustive)
+    📂 Checkpoint: 200 seeds, nodes [5, 6, 7, 8, 9]
+
+ 9. 50pct_sa
+    Discretionary: 50% | Algorithm: sa
+    ⭐ Includes QUALITY metrics (vs exhaustive)
+
+====================================================================================================
+Total: 9 configurations
+Performance: 9 configs (3 ratios × 3 algorithms)
+Quality: Only configs 8-9 (50% greedy/SA vs exhaustive)
+Cost function: EXHAUSTIVE (normalized edge+degree) for ALL algorithms
+Output: multi_algorithm_results/
+====================================================================================================
+
+
+🚀 Running config 1: 10pct_exhaustive
+
+====================================================================================================
+RESUMING: 10pct_exhaustive
+====================================================================================================
+From seed 201 to 400
+Discretionary: 10%
+Algorithm: exhaustive
+Quality metrics: NO
+Cost function: EXHAUSTIVE (normalized edge+degree)
+====================================================================================================
+
+
+  Checkpoint at seed 210/400
+    Nodes=5: time=0.0056s, cost=0.9976±0.0953 ✓
+    Nodes=6: time=0.0208s, cost=0.9271±0.0804 ✓
+    Nodes=7: time=0.0833s, cost=0.9068±0.0723 ✓
+    Nodes=8: time=2.0172s, cost=0.7935±0.0564 ✓
+    Nodes=9: time=13.1006s, cost=0.7752±0.0472 ✓
+
+  Checkpoint at seed 220/400
+    Nodes=5: time=0.0056s, cost=0.9979±0.0977 ✓
+    Nodes=6: time=0.0207s, cost=0.9285±0.0823 ✓
+    Nodes=7: time=0.0832s, cost=0.9080±0.0725 ✓
+    Nodes=8: time=2.0144s, cost=0.7940±0.0570 ✓
+    Nodes=9: time=13.0888s, cost=0.7765±0.0473 ✓
+
+  Checkpoint at seed 230/400
+    Nodes=5: time=0.0056s, cost=0.9989±0.0976 ✓
+    Nodes=6: time=0.0207s, cost=0.9288±0.0816 ✓
+    Nodes=7: time=0.0831s, cost=0.9091±0.0722 ✓
+    Nodes=8: time=2.0122s, cost=0.7950±0.0570 ✓
+    Nodes=9: time=13.0779s, cost=0.7771±0.0475 ✓
+
+  Checkpoint at seed 240/400
+    Nodes=5: time=0.0056s, cost=0.9978±0.0974 ✓
+    Nodes=6: time=0.0207s, cost=0.9285±0.0816 ✓
+    Nodes=7: time=0.0830s, cost=0.9090±0.0717 ✓
+    Nodes=8: time=2.0100s, cost=0.7953±0.0568 ✓
+    Nodes=9: time=13.0652s, cost=0.7763±0.0470 ✓
+
+  Checkpoint at seed 250/400
+    Nodes=5: time=0.0056s, cost=0.9990±0.0981 ✓
+    Nodes=6: time=0.0206s, cost=0.9291±0.0816 ✓
+    Nodes=7: time=0.0828s, cost=0.9096±0.0721 ✓
+    Nodes=8: time=2.0081s, cost=0.7945±0.0567 ✓
+    Nodes=9: time=13.0546s, cost=0.7768±0.0474 ✓
+  Progress: 250/400 - ETA: 37.3min
+
+  Checkpoint at seed 260/400
+    Nodes=5: time=0.0056s, cost=0.9993±0.0981 ✓
+    Nodes=6: time=0.0206s, cost=0.9297±0.0832 ✓
+    Nodes=7: time=0.0827s, cost=0.9093±0.0722 ✓
+    Nodes=8: time=2.0062s, cost=0.7941±0.0564 ✓
+    Nodes=9: time=13.0445s, cost=0.7766±0.0473 ✓
+
+  Checkpoint at seed 270/400
+    Nodes=5: time=0.0056s, cost=0.9988±0.0976 ✓
+    Nodes=6: time=0.0206s, cost=0.9303±0.0826 ✓
+    Nodes=7: time=0.0826s, cost=0.9097±0.0730 ✓
+    Nodes=8: time=2.0042s, cost=0.7936±0.0560 ✓
+    Nodes=9: time=13.0333s, cost=0.7776±0.0470 ✓
+
+  Checkpoint at seed 280/400
+    Nodes=5: time=0.0056s, cost=0.9999±0.0969 ✓
+    Nodes=6: time=0.0205s, cost=0.9310±0.0825 ✓
+    Nodes=7: time=0.0826s, cost=0.9096±0.0722 ✓
+    Nodes=8: time=2.0022s, cost=0.7946±0.0558 ✓
+    Nodes=9: time=13.0240s, cost=0.7785±0.0477 ✓
+
+  Checkpoint at seed 290/400
+    Nodes=5: time=0.0056s, cost=1.0001±0.0959 ✓
+    Nodes=6: time=0.0205s, cost=0.9297±0.0820 ✓
+    Nodes=7: time=0.0825s, cost=0.9088±0.0725 ✓
+    Nodes=8: time=2.0005s, cost=0.7941±0.0565 ✓
+    Nodes=9: time=13.0150s, cost=0.7780±0.0475 ✓
+
+  Checkpoint at seed 300/400
+    Nodes=5: time=0.0056s, cost=1.0013±0.0956 ✓
+    Nodes=6: time=0.0205s, cost=0.9293±0.0821 ✓
+    Nodes=7: time=0.0824s, cost=0.9086±0.0727 ✓
+    Nodes=8: time=1.9992s, cost=0.7946±0.0572 ✓
+    Nodes=9: time=13.0055s, cost=0.7785±0.0472 ✓
+  Progress: 300/400 - ETA: 24.8min
+
+  Checkpoint at seed 310/400
+    Nodes=5: time=0.0056s, cost=1.0025±0.0950 ✓
+    Nodes=6: time=0.0205s, cost=0.9300±0.0816 ✓
+    Nodes=7: time=0.0823s, cost=0.9085±0.0718 ✓
+    Nodes=8: time=1.9981s, cost=0.7950±0.0571 ✓
+    Nodes=9: time=12.9996s, cost=0.7787±0.0470 ✓
+
+  Checkpoint at seed 320/400
+    Nodes=5: time=0.0055s, cost=1.0016±0.0944 ✓
+    Nodes=6: time=0.0204s, cost=0.9296±0.0813 ✓
+    Nodes=7: time=0.0823s, cost=0.9068±0.0716 ✓
+    Nodes=8: time=1.9968s, cost=0.7943±0.0570 ✓
+    Nodes=9: time=12.9911s, cost=0.7780±0.0470 ✓
+
+  Checkpoint at seed 330/400
+    Nodes=5: time=0.0056s, cost=1.0008±0.0944 ✓
+    Nodes=6: time=0.0204s, cost=0.9291±0.0811 ✓
+    Nodes=7: time=0.0822s, cost=0.9068±0.0714 ✓
+    Nodes=8: time=1.9956s, cost=0.7935±0.0567 ✓
+    Nodes=9: time=12.9848s, cost=0.7776±0.0466 ✓
+
+  Checkpoint at seed 340/400
+    Nodes=5: time=0.0057s, cost=1.0005±0.0943 ✓
+    Nodes=6: time=0.0204s, cost=0.9297±0.0818 ✓
+    Nodes=7: time=0.0822s, cost=0.9064±0.0716 ✓
+    Nodes=8: time=1.9945s, cost=0.7937±0.0563 ✓
+    Nodes=9: time=12.9773s, cost=0.7777±0.0464 ✓
+
+  Checkpoint at seed 350/400
+    Nodes=5: time=0.0059s, cost=1.0010±0.0939 ✓
+    Nodes=6: time=0.0204s, cost=0.9298±0.0810 ✓
+    Nodes=7: time=0.0821s, cost=0.9065±0.0711 ✓
+    Nodes=8: time=1.9936s, cost=0.7949±0.0566 ✓
+    Nodes=9: time=12.9723s, cost=0.7786±0.0470 ✓
+  Progress: 350/400 - ETA: 12.4min
+
+  Checkpoint at seed 360/400
+    Nodes=5: time=0.0061s, cost=1.0019±0.0938 ✓
+    Nodes=6: time=0.0204s, cost=0.9302±0.0810 ✓
+    Nodes=7: time=0.0821s, cost=0.9079±0.0717 ✓
+    Nodes=8: time=1.9941s, cost=0.7954±0.0564 ✓
+    Nodes=9: time=12.9719s, cost=0.7794±0.0476 ✓
+
+  Checkpoint at seed 370/400
+    Nodes=5: time=0.0061s, cost=1.0022±0.0938 ✓
+    Nodes=6: time=0.0204s, cost=0.9301±0.0813 ✓
+    Nodes=7: time=0.0820s, cost=0.9081±0.0718 ✓
+    Nodes=8: time=1.9930s, cost=0.7951±0.0562 ✓
+    Nodes=9: time=12.9664s, cost=0.7795±0.0471 ✓
+
+  Checkpoint at seed 380/400
+    Nodes=5: time=0.0062s, cost=1.0038±0.0935 ✓
+    Nodes=6: time=0.0203s, cost=0.9314±0.0815 ✓
+    Nodes=7: time=0.0820s, cost=0.9087±0.0718 ✓
+    Nodes=8: time=1.9923s, cost=0.7955±0.0561 ✓
+    Nodes=9: time=12.9607s, cost=0.7796±0.0470 ✓
+
+  Checkpoint at seed 390/400
+    Nodes=5: time=0.0063s, cost=1.0039±0.0931 ✓
+    Nodes=6: time=0.0203s, cost=0.9315±0.0813 ✓
+    Nodes=7: time=0.0820s, cost=0.9084±0.0714 ✓
+    Nodes=8: time=1.9915s, cost=0.7954±0.0563 ✓
+    Nodes=9: time=12.9566s, cost=0.7798±0.0475 ✓
+
+  Checkpoint at seed 400/400
+    Nodes=5: time=0.0064s, cost=1.0034±0.0933 ✓
+    Nodes=6: time=0.0203s, cost=0.9309±0.0811 ✓
+    Nodes=7: time=0.0820s, cost=0.9083±0.0709 ✓
+    Nodes=8: time=1.9908s, cost=0.7952±0.0559 ✓
+    Nodes=9: time=12.9533s, cost=0.7799±0.0473 ✓
+  Progress: 400/400 - ETA: 0.0min
+
+====================================================================================================
+COMPLETE: 10pct_exhaustive
+====================================================================================================
+Nodes=5: time=0.0064s, cost=1.0034±0.0933 ✓ STABLE
+Nodes=6: time=0.0203s, cost=0.9309±0.0811 ✓ STABLE
+Nodes=7: time=0.0820s, cost=0.9083±0.0709 ✓ STABLE
+Nodes=8: time=1.9908s, cost=0.7952±0.0559 ✓ STABLE
+Nodes=9: time=12.9533s, cost=0.7799±0.0473 ✓ STABLE
+
+Total time: 49.7min
+Checkpoint: multi_algorithm_results/.checkpoint_10pct_exhaustive.pkl
+====================================================================================================
+

@@ -1,0 +1,214 @@
+nohup: ignoring input
+
+====================================================================================================
+MULTI-ALGORITHM BENCHMARK CONFIGURATIONS
+====================================================================================================
+
+ 1. 10pct_exhaustive
+    Discretionary: 10% | Algorithm: exhaustive
+    📂 Checkpoint: 200 seeds, nodes [5, 6, 7, 8, 9]
+
+ 2. 10pct_greedy
+    Discretionary: 10% | Algorithm: greedy
+    📂 Checkpoint: 200 seeds, nodes [5, 6, 7, 8, 9]
+
+ 3. 10pct_sa
+    Discretionary: 10% | Algorithm: sa
+
+ 4. 30pct_exhaustive
+    Discretionary: 30% | Algorithm: exhaustive
+    📂 Checkpoint: 200 seeds, nodes [5, 6, 7, 8, 9]
+
+ 5. 30pct_greedy
+    Discretionary: 30% | Algorithm: greedy
+    📂 Checkpoint: 200 seeds, nodes [5, 6, 7, 8, 9]
+
+ 6. 30pct_sa
+    Discretionary: 30% | Algorithm: sa
+
+ 7. 50pct_exhaustive
+    Discretionary: 50% | Algorithm: exhaustive
+    📂 Checkpoint: 200 seeds, nodes [5, 6, 7, 8, 9]
+
+ 8. 50pct_greedy
+    Discretionary: 50% | Algorithm: greedy
+    ⭐ Includes QUALITY metrics (vs exhaustive)
+    📂 Checkpoint: 200 seeds, nodes [5, 6, 7, 8, 9]
+
+ 9. 50pct_sa
+    Discretionary: 50% | Algorithm: sa
+    ⭐ Includes QUALITY metrics (vs exhaustive)
+
+====================================================================================================
+Total: 9 configurations
+Performance: 9 configs (3 ratios × 3 algorithms)
+Quality: Only configs 8-9 (50% greedy/SA vs exhaustive)
+Cost function: EXHAUSTIVE (normalized edge+degree) for ALL algorithms
+Output: multi_algorithm_results/
+====================================================================================================
+
+
+🚀 Running config 8: 50pct_greedy
+
+====================================================================================================
+RESUMING: 50pct_greedy
+====================================================================================================
+From seed 201 to 400
+Discretionary: 50%
+Algorithm: greedy
+Quality metrics: YES
+Cost function: EXHAUSTIVE (normalized edge+degree)
+====================================================================================================
+
+Solution WITHOUT disc: ACC=0.3875, AOC=0.3333, Score=720.83
+Solution WITH disc: ACC=0.2875, AOC=0.2389, Score=526.39
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3200, AOC=0.2667, Score=586.67
+Solution WITH disc: ACC=0.2400, AOC=0.1664, Score=406.44
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.4138, AOC=0.3095, Score=723.32
+Solution WITH disc: ACC=0.1839, AOC=0.1634, Score=347.33
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3645, AOC=0.2679, Score=632.39
+Solution WITH disc: ACC=0.1626, AOC=0.1306, Score=293.19
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2543, AOC=0.1907, Score=445.05
+Solution WITH disc: ACC=0.1552, AOC=0.1358, Score=290.94
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3167, AOC=0.3542, Score=670.83
+Solution WITH disc: ACC=0.1583, AOC=0.2546, Score=412.96
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2533, AOC=0.3000, Score=553.33
+Solution WITH disc: ACC=0.1200, AOC=0.2222, Score=342.22
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2611, AOC=0.3333, Score=594.44
+Solution WITH disc: ACC=0.0889, AOC=0.1927, Score=281.57
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2952, AOC=0.2857, Score=580.95
+Solution WITH disc: ACC=0.1429, AOC=0.1643, Score=307.14
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2792, AOC=0.2500, Score=529.17
+Solution WITH disc: ACC=0.1542, AOC=0.1705, Score=324.62
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.4219, AOC=0.3750, Score=796.88
+Solution WITH disc: ACC=0.2969, AOC=0.2648, Score=561.69
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3500, AOC=0.3000, Score=650.00
+Solution WITH disc: ACC=0.2000, AOC=0.2127, Score=412.70
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2241, AOC=0.3333, Score=557.47
+Solution WITH disc: ACC=0.0862, AOC=0.1808, Score=267.01
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2463, AOC=0.2857, Score=532.02
+Solution WITH disc: ACC=0.1232, AOC=0.1553, Score=278.46
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2069, AOC=0.2250, Score=431.90
+Solution WITH disc: ACC=0.1293, AOC=0.1567, Score=285.98
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2955, AOC=0.3500, Score=645.45
+Solution WITH disc: ACC=0.1818, AOC=0.2519, Score=433.67
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3043, AOC=0.2571, Score=561.49
+Solution WITH disc: ACC=0.2174, AOC=0.1562, Score=373.58
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2798, AOC=0.2708, Score=550.60
+Solution WITH disc: ACC=0.1190, AOC=0.1510, Score=270.09
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2449, AOC=0.2381, Score=482.99
+Solution WITH disc: ACC=0.1378, AOC=0.1200, Score=257.72
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2366, AOC=0.2073, Score=443.90
+Solution WITH disc: ACC=0.1429, AOC=0.1492, Score=292.04
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.4630, AOC=0.3750, Score=837.96
+Solution WITH disc: ACC=0.2685, AOC=0.2677, Score=536.25
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3840, AOC=0.3000, Score=684.00
+Solution WITH disc: ACC=0.2160, AOC=0.2239, Score=439.93
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3013, AOC=0.3333, Score=634.62
+Solution WITH disc: ACC=0.1410, AOC=0.1872, Score=328.21
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2582, AOC=0.2857, Score=543.96
+Solution WITH disc: ACC=0.1209, AOC=0.1667, Score=287.55
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2167, AOC=0.2125, Score=429.17
+Solution WITH disc: ACC=0.1250, AOC=0.1444, Score=269.36
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3971, AOC=0.3750, Score=772.06
+Solution WITH disc: ACC=0.2941, AOC=0.2671, Score=561.21
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3429, AOC=0.3000, Score=642.86
+Solution WITH disc: ACC=0.2286, AOC=0.2124, Score=440.97
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3526, AOC=0.3333, Score=685.90
+Solution WITH disc: ACC=0.1923, AOC=0.1812, Score=373.55
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2714, AOC=0.2857, Score=557.14
+Solution WITH disc: ACC=0.1667, AOC=0.1562, Score=322.83
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2933, AOC=0.2407, Score=534.01
+Solution WITH disc: ACC=0.1683, AOC=0.1491, Score=317.38
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3534, AOC=0.3750, Score=728.45
+Solution WITH disc: ACC=0.1466, AOC=0.2704, Score=416.96
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2483, AOC=0.3000, Score=548.28
+Solution WITH disc: ACC=0.0828, AOC=0.2142, Score=296.94
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2414, AOC=0.3333, Score=574.71
+Solution WITH disc: ACC=0.0862, AOC=0.1840, Score=270.24
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2512, AOC=0.2857, Score=536.95
+Solution WITH disc: ACC=0.1182, AOC=0.1588, Score=277.00
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2500, AOC=0.2344, Score=484.38
+Solution WITH disc: ACC=0.1552, AOC=0.1431, Score=298.27
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.4107, AOC=0.3542, Score=764.88
+Solution WITH disc: ACC=0.2768, AOC=0.2630, Score=539.78
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3286, AOC=0.2667, Score=595.24
+Solution WITH disc: ACC=0.2214, AOC=0.1958, Score=417.22
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3556, AOC=0.3095, Score=665.08
+Solution WITH disc: ACC=0.1944, AOC=0.1807, Score=375.12
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3524, AOC=0.2679, Score=620.24
+Solution WITH disc: ACC=0.1619, AOC=0.1565, Score=318.42
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3147, AOC=0.2263, Score=540.93
+Solution WITH disc: ACC=0.2155, AOC=0.1391, Score=354.61
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2685, AOC=0.3750, Score=643.52
+Solution WITH disc: ACC=0.1944, AOC=0.2833, Score=477.78
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1630, AOC=0.2600, Score=422.96
+Solution WITH disc: ACC=0.1037, AOC=0.1832, Score=286.91
+Winner: WITH DISC
+Traceback (most recent call last):
+  File "/home/ubuntu/exhaustive-algorithm-vs-greedy-virtual-network_private/benchmark/benchmark_multi_algorithm.py", line 1089, in <module>
+    main()
+  File "/home/ubuntu/exhaustive-algorithm-vs-greedy-virtual-network_private/benchmark/benchmark_multi_algorithm.py", line 1085, in main
+    run_configuration(config, target_seeds, resume)
+  File "/home/ubuntu/exhaustive-algorithm-vs-greedy-virtual-network_private/benchmark/benchmark_multi_algorithm.py", line 784, in run_configuration
+    quality = calculate_quality_for_seed(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/exhaustive-algorithm-vs-greedy-virtual-network_private/benchmark/benchmark_multi_algorithm.py", line 602, in calculate_quality_for_seed
+    sol_ex = load_exhaustive_solution(num_nodes, seed, disc_ratio)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/exhaustive-algorithm-vs-greedy-virtual-network_private/benchmark/benchmark_multi_algorithm.py", line 251, in load_exhaustive_solution
+    solutions = json.load(f)
+                ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
