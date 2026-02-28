@@ -19,3 +19,7 @@ python3 plot_multi_algorithm.py --all
 
     #debug_config = {'verbose': True, 'save_plots': False}
     debug_config = {'verbose': False, 'save_plots': False}
+
+
+## plot:
+python3 plot_multi_algorithm_v4.py --all --max-seeds 300
