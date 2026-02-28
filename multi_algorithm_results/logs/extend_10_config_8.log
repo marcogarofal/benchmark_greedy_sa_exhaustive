@@ -1,0 +1,1305 @@
+nohup: ignoring input
+
+====================================================================================================
+MULTI-ALGORITHM BENCHMARK CONFIGURATIONS
+====================================================================================================
+
+ 1. 10pct_exhaustive
+    Discretionary: 10% | Algorithm: exhaustive
+    📂 Checkpoint: 400 seeds, nodes [5, 6, 7, 8, 9, 10]
+
+ 2. 10pct_greedy
+    Discretionary: 10% | Algorithm: greedy
+    📂 Checkpoint: 400 seeds, nodes [5, 6, 7, 8, 9]
+
+ 3. 10pct_sa
+    Discretionary: 10% | Algorithm: sa
+
+ 4. 30pct_exhaustive
+    Discretionary: 30% | Algorithm: exhaustive
+    📂 Checkpoint: 400 seeds, nodes [5, 6, 7, 8, 9, 10]
+
+ 5. 30pct_greedy
+    Discretionary: 30% | Algorithm: greedy
+    📂 Checkpoint: 400 seeds, nodes [5, 6, 7, 8, 9, 10]
+
+ 6. 30pct_sa
+    Discretionary: 30% | Algorithm: sa
+
+ 7. 50pct_exhaustive
+    Discretionary: 50% | Algorithm: exhaustive
+    📂 Checkpoint: 400 seeds, nodes [5, 6, 7, 8, 9, 10]
+
+ 8. 50pct_greedy
+    Discretionary: 50% | Algorithm: greedy
+    ⭐ Includes QUALITY metrics (vs exhaustive)
+    📂 Checkpoint: 400 seeds, nodes [5, 6, 7, 8, 9]
+
+ 9. 50pct_sa
+    Discretionary: 50% | Algorithm: sa
+    ⭐ Includes QUALITY metrics (vs exhaustive)
+
+====================================================================================================
+Total: 9 configurations
+Performance: 9 configs (3 ratios × 3 algorithms)
+Quality: Only configs 8-9 (50% greedy/SA vs exhaustive)
+Cost function: EXHAUSTIVE (normalized edge+degree) for ALL algorithms
+Output: multi_algorithm_results/
+====================================================================================================
+
+
+====================================================================================================
+EXTENDING: 50pct_greedy
+====================================================================================================
+Current nodes: [5, 6, 7, 8, 9]
+Max seed: 400
+  ➕ Node 10: NEW
+
+Total tests: 400
+====================================================================================================
+
+Processing node 10 (seeds 1→400)...
+Solution WITHOUT disc: ACC=0.2183, AOC=0.1811, Score=399.32
+Solution WITH disc: ACC=0.1349, AOC=0.1112, Score=246.14
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2815, AOC=0.2222, Score=503.70
+Solution WITH disc: ACC=0.1926, AOC=0.1469, Score=339.51
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2529, AOC=0.1759, Score=428.80
+Solution WITH disc: ACC=0.1801, AOC=0.1159, Score=295.96
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2675, AOC=0.1992, Score=466.67
+Solution WITH disc: ACC=0.1523, AOC=0.1252, Score=277.43
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.2037, Score=425.93
+Solution WITH disc: ACC=0.1296, AOC=0.1382, Score=267.84
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3254, AOC=0.1650, Score=490.38
+Solution WITH disc: ACC=0.2143, AOC=0.1099, Score=324.16
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1852, AOC=0.2081, Score=393.27
+Solution WITH disc: ACC=0.1037, AOC=0.1402, Score=243.89
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3248, AOC=0.1983, Score=523.10
+Solution WITH disc: ACC=0.2137, AOC=0.1372, Score=350.86
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2605, AOC=0.2003, Score=460.87
+Solution WITH disc: ACC=0.1111, AOC=0.1354, Score=246.51
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2370, AOC=0.1650, Score=402.02
+Solution WITH disc: ACC=0.1556, AOC=0.1075, Score=263.08
+Winner: WITH DISC
+  Checkpoint at seed 10/400
+Solution WITHOUT disc: ACC=0.3148, AOC=0.2130, Score=527.78
+Solution WITH disc: ACC=0.1481, AOC=0.1400, Score=288.13
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2259, AOC=0.1998, Score=425.70
+Solution WITH disc: ACC=0.1037, AOC=0.1345, Score=238.20
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1963, AOC=0.2111, Score=407.41
+Solution WITH disc: ACC=0.1111, AOC=0.1357, Score=246.84
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2704, AOC=0.1852, Score=455.56
+Solution WITH disc: ACC=0.1519, AOC=0.1205, Score=272.38
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2650, AOC=0.1975, Score=462.49
+Solution WITH disc: ACC=0.1752, AOC=0.1373, Score=312.51
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.2054, Score=427.61
+Solution WITH disc: ACC=0.1037, AOC=0.1361, Score=239.82
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3086, AOC=0.2031, Score=511.78
+Solution WITH disc: ACC=0.2058, AOC=0.1309, Score=336.68
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2578, AOC=0.1998, Score=457.55
+Solution WITH disc: ACC=0.1511, AOC=0.1317, Score=282.77
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2146, AOC=0.1852, Score=399.74
+Solution WITH disc: ACC=0.1264, AOC=0.1199, Score=246.35
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2259, AOC=0.2033, Score=429.22
+Solution WITH disc: ACC=0.1481, AOC=0.1335, Score=281.62
+Winner: WITH DISC
+  Checkpoint at seed 20/400
+Solution WITHOUT disc: ACC=0.2704, AOC=0.2088, Score=479.12
+Solution WITH disc: ACC=0.1444, AOC=0.1337, Score=278.14
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2370, AOC=0.2058, Score=442.80
+Solution WITH disc: ACC=0.1704, AOC=0.1311, Score=301.46
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1865, AOC=0.2000, Score=386.51
+Solution WITH disc: ACC=0.1111, AOC=0.1282, Score=239.28
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2370, AOC=0.1902, Score=427.27
+Solution WITH disc: ACC=0.1556, AOC=0.1253, Score=280.89
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2817, AOC=0.1777, Score=459.45
+Solution WITH disc: ACC=0.1825, AOC=0.1187, Score=301.20
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2184, AOC=0.2088, Score=427.15
+Solution WITH disc: ACC=0.1149, AOC=0.1399, Score=254.84
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2630, AOC=0.2189, Score=481.82
+Solution WITH disc: ACC=0.1444, AOC=0.1444, Score=288.87
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2261, AOC=0.1811, Score=407.12
+Solution WITH disc: ACC=0.1264, AOC=0.1247, Score=251.12
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1916, AOC=0.1753, Score=366.88
+Solution WITH disc: ACC=0.1226, AOC=0.1252, Score=247.83
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2185, AOC=0.1914, Score=409.88
+Solution WITH disc: ACC=0.1148, AOC=0.1319, Score=246.71
+Winner: WITH DISC
+  Checkpoint at seed 30/400
+Solution WITHOUT disc: ACC=0.2346, AOC=0.1919, Score=426.49
+Solution WITH disc: ACC=0.1358, AOC=0.1269, Score=262.72
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2489, AOC=0.2058, Score=454.65
+Solution WITH disc: ACC=0.1556, AOC=0.1321, Score=287.66
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2519, AOC=0.1944, Score=446.30
+Solution WITH disc: ACC=0.1630, AOC=0.1403, Score=303.24
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2302, AOC=0.2037, Score=433.86
+Solution WITH disc: ACC=0.1270, AOC=0.1387, Score=265.65
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2305, AOC=0.1870, Score=417.49
+Solution WITH disc: ACC=0.1440, AOC=0.1302, Score=274.23
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2074, AOC=0.2074, Score=414.81
+Solution WITH disc: ACC=0.1222, AOC=0.1436, Score=265.81
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2148, AOC=0.1728, Score=387.65
+Solution WITH disc: ACC=0.1370, AOC=0.1091, Score=246.14
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2259, AOC=0.1818, Score=407.74
+Solution WITH disc: ACC=0.1593, AOC=0.1189, Score=278.19
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1889, AOC=0.2051, Score=393.94
+Solution WITH disc: ACC=0.1333, AOC=0.1370, Score=270.29
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1865, AOC=0.2068, Score=393.30
+Solution WITH disc: ACC=0.1032, AOC=0.1368, Score=240.02
+Winner: WITH DISC
+  Checkpoint at seed 40/400
+Solution WITHOUT disc: ACC=0.2337, AOC=0.1983, Score=432.03
+Solution WITH disc: ACC=0.1264, AOC=0.1307, Score=257.13
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2407, AOC=0.2148, Score=455.56
+Solution WITH disc: ACC=0.1704, AOC=0.1423, Score=312.71
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3027, AOC=0.1918, Score=494.45
+Solution WITH disc: ACC=0.1724, AOC=0.1319, Score=304.35
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2407, AOC=0.2068, Score=447.53
+Solution WITH disc: ACC=0.1556, AOC=0.1433, Score=298.87
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2107, AOC=0.2054, Score=416.12
+Solution WITH disc: ACC=0.1188, AOC=0.1400, Score=258.73
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1746, AOC=0.1919, Score=366.52
+Solution WITH disc: ACC=0.0992, AOC=0.1233, Score=222.54
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2375, AOC=0.1825, Score=420.04
+Solution WITH disc: ACC=0.1264, AOC=0.1220, Score=248.47
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.2019, Score=424.07
+Solution WITH disc: ACC=0.1235, AOC=0.1276, Score=251.05
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2179, AOC=0.1845, Score=402.46
+Solution WITH disc: ACC=0.1325, AOC=0.1155, Score=247.96
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2556, AOC=0.2121, Score=467.68
+Solution WITH disc: ACC=0.1407, AOC=0.1390, Score=279.79
+Winner: WITH DISC
+  Checkpoint at seed 50/400
+Solution WITHOUT disc: ACC=0.2881, AOC=0.1759, Score=463.99
+Solution WITH disc: ACC=0.1481, AOC=0.1167, Score=264.82
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3077, AOC=0.1877, Score=495.35
+Solution WITH disc: ACC=0.2094, AOC=0.1207, Score=330.12
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1992, AOC=0.1877, Score=386.94
+Solution WITH disc: ACC=0.1188, AOC=0.1214, Score=240.19
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3254, AOC=0.1877, Score=513.11
+Solution WITH disc: ACC=0.1825, AOC=0.1238, Score=306.37
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3086, AOC=0.2058, Score=514.40
+Solution WITH disc: ACC=0.1811, AOC=0.1350, Score=316.05
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2444, AOC=0.1773, Score=421.77
+Solution WITH disc: ACC=0.1741, AOC=0.1153, Score=289.42
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3296, AOC=0.1901, Score=519.75
+Solution WITH disc: ACC=0.1926, AOC=0.1165, Score=309.08
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2111, AOC=0.1944, Score=405.56
+Solution WITH disc: ACC=0.1000, AOC=0.1354, Score=235.42
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2333, AOC=0.1938, Score=427.12
+Solution WITH disc: ACC=0.1667, AOC=0.1196, Score=286.30
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2148, AOC=0.2099, Score=424.69
+Solution WITH disc: ACC=0.1370, AOC=0.1415, Score=278.52
+Winner: WITH DISC
+  Checkpoint at seed 60/400
+Solution WITHOUT disc: ACC=0.2630, AOC=0.1995, Score=462.46
+Solution WITH disc: ACC=0.1444, AOC=0.1317, Score=276.18
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2296, AOC=0.1852, Score=414.81
+Solution WITH disc: ACC=0.1444, AOC=0.1209, Score=265.38
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2261, AOC=0.2121, Score=438.17
+Solution WITH disc: ACC=0.1264, AOC=0.1390, Score=265.49
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2037, AOC=0.1650, Score=368.69
+Solution WITH disc: ACC=0.1111, AOC=0.1168, Score=227.95
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2704, AOC=0.2121, Score=482.49
+Solution WITH disc: ACC=0.1407, AOC=0.1401, Score=280.87
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2906, AOC=0.1872, Score=477.80
+Solution WITH disc: ACC=0.1709, AOC=0.1201, Score=291.05
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2107, AOC=0.2020, Score=412.75
+Solution WITH disc: ACC=0.1188, AOC=0.1293, Score=248.12
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2146, AOC=0.1650, Score=379.54
+Solution WITH disc: ACC=0.0996, AOC=0.1104, Score=210.03
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2500, AOC=0.2099, Score=459.88
+Solution WITH disc: ACC=0.1349, AOC=0.1376, Score=272.50
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2529, AOC=0.1872, Score=440.08
+Solution WITH disc: ACC=0.1341, AOC=0.1203, Score=254.40
+Winner: WITH DISC
+  Checkpoint at seed 70/400
+Solution WITHOUT disc: ACC=0.2031, AOC=0.1914, Score=394.42
+Solution WITH disc: ACC=0.1341, AOC=0.1360, Score=270.06
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2682, AOC=0.1811, Score=449.27
+Solution WITH disc: ACC=0.1762, AOC=0.1296, Score=305.85
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2265, AOC=0.1802, Score=406.74
+Solution WITH disc: ACC=0.1368, AOC=0.1208, Score=257.55
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.1605, Score=382.72
+Solution WITH disc: ACC=0.1418, AOC=0.1060, Score=247.81
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2659, AOC=0.2160, Score=481.92
+Solution WITH disc: ACC=0.1429, AOC=0.1404, Score=283.29
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3142, AOC=0.2121, Score=526.30
+Solution WITH disc: ACC=0.1954, AOC=0.1411, Score=336.49
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2107, AOC=0.2111, Score=421.84
+Solution WITH disc: ACC=0.1111, AOC=0.1367, Score=247.78
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2185, AOC=0.1918, Score=410.29
+Solution WITH disc: ACC=0.1259, AOC=0.1274, Score=253.37
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2950, AOC=0.2013, Score=496.37
+Solution WITH disc: ACC=0.1839, AOC=0.1324, Score=316.35
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2510, AOC=0.2093, Score=460.34
+Solution WITH disc: ACC=0.1358, AOC=0.1364, Score=272.18
+Winner: WITH DISC
+  Checkpoint at seed 80/400
+Solution WITHOUT disc: ACC=0.2682, AOC=0.1970, Score=465.17
+Solution WITH disc: ACC=0.1571, AOC=0.1278, Score=284.89
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2436, AOC=0.1970, Score=440.56
+Solution WITH disc: ACC=0.1325, AOC=0.1305, Score=262.94
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2881, AOC=0.1717, Score=459.78
+Solution WITH disc: ACC=0.1934, AOC=0.1125, Score=305.91
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2840, AOC=0.1744, Score=458.36
+Solution WITH disc: ACC=0.1770, AOC=0.1190, Score=295.93
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3103, AOC=0.1893, Score=499.65
+Solution WITH disc: ACC=0.2146, AOC=0.1230, Score=337.52
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2302, AOC=0.1802, Score=410.41
+Solution WITH disc: ACC=0.1548, AOC=0.1241, Score=278.84
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2567, AOC=0.2037, Score=460.41
+Solution WITH disc: ACC=0.1762, AOC=0.1372, Score=313.47
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2917, AOC=0.2044, Score=496.04
+Solution WITH disc: ACC=0.1759, AOC=0.1367, Score=312.63
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2184, AOC=0.1951, Score=413.45
+Solution WITH disc: ACC=0.1188, AOC=0.1236, Score=242.41
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2143, AOC=0.1837, Score=397.97
+Solution WITH disc: ACC=0.1151, AOC=0.1199, Score=234.98
+Winner: WITH DISC
+  Checkpoint at seed 90/400
+Solution WITHOUT disc: ACC=0.2778, AOC=0.1893, Score=467.08
+Solution WITH disc: ACC=0.1667, AOC=0.1361, Score=302.73
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3254, AOC=0.2130, Score=538.36
+Solution WITH disc: ACC=0.1389, AOC=0.1422, Score=281.07
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2414, AOC=0.2093, Score=450.69
+Solution WITH disc: ACC=0.1533, AOC=0.1395, Score=292.80
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2181, AOC=0.1934, Score=411.52
+Solution WITH disc: ACC=0.1070, AOC=0.1240, Score=231.02
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2370, AOC=0.2222, Score=459.26
+Solution WITH disc: ACC=0.1519, AOC=0.1499, Score=301.73
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2333, AOC=0.2155, Score=448.82
+Solution WITH disc: ACC=0.1333, AOC=0.1435, Score=276.87
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.2044, Score=426.60
+Solution WITH disc: ACC=0.1523, AOC=0.1335, Score=285.81
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2000, AOC=0.1704, Score=370.37
+Solution WITH disc: ACC=0.1296, AOC=0.1211, Score=250.72
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2720, AOC=0.1953, Score=467.32
+Solution WITH disc: ACC=0.1571, AOC=0.1322, Score=289.27
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2000, AOC=0.1886, Score=388.55
+Solution WITH disc: ACC=0.1148, AOC=0.1275, Score=242.33
+Winner: WITH DISC
+  Checkpoint at seed 100/400
+Solution WITHOUT disc: ACC=0.2414, AOC=0.1852, Score=426.56
+Solution WITH disc: ACC=0.1303, AOC=0.1164, Score=246.67
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3142, AOC=0.1870, Score=501.21
+Solution WITH disc: ACC=0.1992, AOC=0.1248, Score=324.07
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2031, AOC=0.1897, Score=392.74
+Solution WITH disc: ACC=0.1264, AOC=0.1203, Score=246.74
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2556, AOC=0.2058, Score=461.32
+Solution WITH disc: ACC=0.1630, AOC=0.1329, Score=295.83
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2381, AOC=0.1975, Score=435.63
+Solution WITH disc: ACC=0.1468, AOC=0.1327, Score=279.49
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2593, AOC=0.1897, Score=448.93
+Solution WITH disc: ACC=0.1481, AOC=0.1216, Score=269.71
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2759, AOC=0.1944, Score=470.31
+Solution WITH disc: ACC=0.1533, AOC=0.1262, Score=279.43
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2333, AOC=0.1957, Score=428.99
+Solution WITH disc: ACC=0.1481, AOC=0.1298, Score=277.98
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3056, AOC=0.2044, Score=509.93
+Solution WITH disc: ACC=0.1746, AOC=0.1334, Score=308.00
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2452, AOC=0.1902, Score=435.45
+Solution WITH disc: ACC=0.1533, AOC=0.1243, Score=277.56
+Winner: WITH DISC
+  Checkpoint at seed 110/400
+Solution WITHOUT disc: ACC=0.2963, AOC=0.2051, Score=501.35
+Solution WITH disc: ACC=0.1811, AOC=0.1304, Score=311.47
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3218, AOC=0.2099, Score=531.72
+Solution WITH disc: ACC=0.2069, AOC=0.1408, Score=347.70
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2148, AOC=0.2074, Score=422.22
+Solution WITH disc: ACC=0.1630, AOC=0.1327, Score=295.69
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2778, AOC=0.1893, Score=467.08
+Solution WITH disc: ACC=0.1944, AOC=0.1277, Score=322.16
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2111, AOC=0.1951, Score=406.17
+Solution WITH disc: ACC=0.1074, AOC=0.1242, Score=231.56
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2414, AOC=0.1975, Score=438.91
+Solution WITH disc: ACC=0.1533, AOC=0.1264, Score=279.64
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2333, AOC=0.2222, Score=455.56
+Solution WITH disc: ACC=0.1444, AOC=0.1477, Score=292.16
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1963, AOC=0.2033, Score=399.59
+Solution WITH disc: ACC=0.1333, AOC=0.1332, Score=266.57
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2798, AOC=0.1963, Score=476.13
+Solution WITH disc: ACC=0.1687, AOC=0.1308, Score=299.57
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.2037, Score=425.93
+Solution WITH disc: ACC=0.1222, AOC=0.1262, Score=248.38
+Winner: WITH DISC
+  Checkpoint at seed 120/400
+Solution WITHOUT disc: ACC=0.2989, AOC=0.1811, Score=479.92
+Solution WITH disc: ACC=0.1954, AOC=0.1221, Score=317.55
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2797, AOC=0.1759, Score=455.62
+Solution WITH disc: ACC=0.1839, AOC=0.1275, Score=311.46
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2840, AOC=0.2000, Score=483.95
+Solution WITH disc: ACC=0.1687, AOC=0.1376, Score=306.37
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2605, AOC=0.1778, Score=438.31
+Solution WITH disc: ACC=0.1801, AOC=0.1217, Score=301.81
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2605, AOC=0.2130, Score=473.50
+Solution WITH disc: ACC=0.1379, AOC=0.1377, Score=275.67
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2146, AOC=0.1728, Score=387.40
+Solution WITH disc: ACC=0.1264, AOC=0.1186, Score=245.04
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2912, AOC=0.1605, Score=451.68
+Solution WITH disc: ACC=0.1341, AOC=0.1137, Score=247.81
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2593, AOC=0.1877, Score=446.97
+Solution WITH disc: ACC=0.1333, AOC=0.1359, Score=269.26
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2024, AOC=0.2037, Score=406.08
+Solution WITH disc: ACC=0.1230, AOC=0.1391, Score=262.12
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2817, AOC=0.2059, Score=487.69
+Solution WITH disc: ACC=0.1627, AOC=0.1322, Score=294.90
+Winner: WITH DISC
+  Checkpoint at seed 130/400
+Solution WITHOUT disc: ACC=0.2605, AOC=0.2037, Score=464.24
+Solution WITH disc: ACC=0.1456, AOC=0.1403, Score=285.91
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2778, AOC=0.1886, Score=466.33
+Solution WITH disc: ACC=0.2103, AOC=0.1252, Score=335.51
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2692, AOC=0.2088, Score=477.98
+Solution WITH disc: ACC=0.1581, AOC=0.1345, Score=292.59
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2630, AOC=0.1970, Score=459.93
+Solution WITH disc: ACC=0.1778, AOC=0.1239, Score=301.64
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2852, AOC=0.2099, Score=495.06
+Solution WITH disc: ACC=0.1630, AOC=0.1291, Score=292.06
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2111, AOC=0.2068, Score=417.90
+Solution WITH disc: ACC=0.1370, AOC=0.1375, Score=274.49
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3205, AOC=0.1938, Score=514.30
+Solution WITH disc: ACC=0.1880, AOC=0.1312, Score=319.21
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3210, AOC=0.1953, Score=516.27
+Solution WITH disc: ACC=0.2016, AOC=0.1315, Score=333.12
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3372, AOC=0.1605, Score=497.66
+Solution WITH disc: ACC=0.1839, AOC=0.1045, Score=288.45
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2137, AOC=0.2148, Score=428.49
+Solution WITH disc: ACC=0.1496, AOC=0.1404, Score=289.93
+Winner: WITH DISC
+  Checkpoint at seed 140/400
+Solution WITHOUT disc: ACC=0.2259, AOC=0.1728, Score=398.77
+Solution WITH disc: ACC=0.1333, AOC=0.1278, Score=261.11
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2333, AOC=0.1970, Score=430.30
+Solution WITH disc: ACC=0.1519, AOC=0.1351, Score=286.99
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1984, AOC=0.2181, Score=416.52
+Solution WITH disc: ACC=0.1151, AOC=0.1448, Score=259.89
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2460, AOC=0.1717, Score=417.75
+Solution WITH disc: ACC=0.1270, AOC=0.1136, Score=240.56
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2797, AOC=0.1773, Score=457.02
+Solution WITH disc: ACC=0.1609, AOC=0.1279, Score=288.78
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2375, AOC=0.2130, Score=450.51
+Solution WITH disc: ACC=0.1609, AOC=0.1334, Score=294.33
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2593, AOC=0.1902, Score=449.49
+Solution WITH disc: ACC=0.1556, AOC=0.1283, Score=283.84
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.1919, Score=414.14
+Solution WITH disc: ACC=0.1593, AOC=0.1188, Score=278.07
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2381, AOC=0.2074, Score=445.50
+Solution WITH disc: ACC=0.1548, AOC=0.1357, Score=290.48
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2489, AOC=0.1976, Score=446.53
+Solution WITH disc: ACC=0.1422, AOC=0.1287, Score=270.97
+Winner: WITH DISC
+  Checkpoint at seed 150/400
+Solution WITHOUT disc: ACC=0.2296, AOC=0.2081, Score=437.71
+Solution WITH disc: ACC=0.1407, AOC=0.1316, Score=272.34
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2148, AOC=0.1953, Score=410.10
+Solution WITH disc: ACC=0.1407, AOC=0.1293, Score=270.03
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2874, AOC=0.2121, Score=499.48
+Solution WITH disc: ACC=0.1877, AOC=0.1240, Score=311.70
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3185, AOC=0.1953, Score=513.80
+Solution WITH disc: ACC=0.1963, AOC=0.1241, Score=320.44
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2460, AOC=0.2222, Score=468.25
+Solution WITH disc: ACC=0.1230, AOC=0.1505, Score=273.53
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2897, AOC=0.1953, Score=484.97
+Solution WITH disc: ACC=0.1508, AOC=0.1234, Score=274.21
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2375, AOC=0.1970, Score=434.52
+Solution WITH disc: ACC=0.1456, AOC=0.1256, Score=271.21
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1916, AOC=0.2140, Score=405.56
+Solution WITH disc: ACC=0.1264, AOC=0.1387, Score=265.14
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2444, AOC=0.1953, Score=439.73
+Solution WITH disc: ACC=0.1593, AOC=0.1364, Score=295.62
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2840, AOC=0.1827, Score=466.67
+Solution WITH disc: ACC=0.1523, AOC=0.1256, Score=277.82
+Winner: WITH DISC
+  Checkpoint at seed 160/400
+Solution WITHOUT disc: ACC=0.2452, AOC=0.1852, Score=430.40
+Solution WITH disc: ACC=0.1609, AOC=0.1208, Score=281.74
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1852, AOC=0.1770, Score=362.14
+Solution WITH disc: ACC=0.1000, AOC=0.1235, Score=223.46
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2682, AOC=0.2099, Score=478.08
+Solution WITH disc: ACC=0.1341, AOC=0.1391, Score=273.18
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2000, AOC=0.1852, Score=385.19
+Solution WITH disc: ACC=0.1111, AOC=0.1203, Score=231.44
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2567, AOC=0.2121, Score=468.83
+Solution WITH disc: ACC=0.1494, AOC=0.1386, Score=288.06
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2593, AOC=0.1860, Score=445.29
+Solution WITH disc: ACC=0.1185, AOC=0.1271, Score=245.63
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2009, AOC=0.2025, Score=403.32
+Solution WITH disc: ACC=0.1239, AOC=0.1308, Score=254.71
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2857, AOC=0.1827, Score=468.43
+Solution WITH disc: ACC=0.1190, AOC=0.1189, Score=237.92
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.1914, Score=413.58
+Solution WITH disc: ACC=0.1111, AOC=0.1317, Score=242.84
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2659, AOC=0.2037, Score=469.58
+Solution WITH disc: ACC=0.1667, AOC=0.1350, Score=301.65
+Winner: WITH DISC
+  Checkpoint at seed 170/400
+Solution WITHOUT disc: ACC=0.3142, AOC=0.2191, Score=533.31
+Solution WITH disc: ACC=0.2222, AOC=0.1420, Score=364.18
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2698, AOC=0.2148, Score=484.66
+Solution WITH disc: ACC=0.1627, AOC=0.1399, Score=302.64
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2296, AOC=0.2065, Score=436.14
+Solution WITH disc: ACC=0.1148, AOC=0.1307, Score=245.54
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.1919, Score=414.14
+Solution WITH disc: ACC=0.1296, AOC=0.1233, Score=252.97
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2375, AOC=0.1998, Score=437.32
+Solution WITH disc: ACC=0.1609, AOC=0.1339, Score=294.83
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2659, AOC=0.2140, Score=479.86
+Solution WITH disc: ACC=0.1865, AOC=0.1427, Score=329.17
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2778, AOC=0.1886, Score=466.33
+Solution WITH disc: ACC=0.1370, AOC=0.1220, Score=259.00
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2370, AOC=0.1650, Score=402.02
+Solution WITH disc: ACC=0.1185, AOC=0.1158, Score=234.31
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2262, AOC=0.2181, Score=444.30
+Solution WITH disc: ACC=0.1349, AOC=0.1379, Score=272.78
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1889, AOC=0.2140, Score=402.88
+Solution WITH disc: ACC=0.1259, AOC=0.1317, Score=257.65
+Winner: WITH DISC
+  Checkpoint at seed 180/400
+Solution WITHOUT disc: ACC=0.2659, AOC=0.1975, Score=463.40
+Solution WITH disc: ACC=0.1746, AOC=0.1204, Score=295.04
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1963, AOC=0.2007, Score=396.97
+Solution WITH disc: ACC=0.1111, AOC=0.1321, Score=243.17
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2481, AOC=0.2222, Score=470.37
+Solution WITH disc: ACC=0.1926, AOC=0.1422, Score=334.76
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2183, AOC=0.1918, Score=410.02
+Solution WITH disc: ACC=0.1310, AOC=0.1298, Score=260.79
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1926, AOC=0.2058, Score=398.35
+Solution WITH disc: ACC=0.1222, AOC=0.1319, Score=254.09
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3539, AOC=0.2127, Score=566.59
+Solution WITH disc: ACC=0.2140, AOC=0.1380, Score=352.04
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2540, AOC=0.2003, Score=454.30
+Solution WITH disc: ACC=0.1548, AOC=0.1295, Score=284.22
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3244, AOC=0.1959, Score=520.33
+Solution WITH disc: ACC=0.2222, AOC=0.1273, Score=349.56
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2262, AOC=0.1976, Score=423.83
+Solution WITH disc: ACC=0.1429, AOC=0.1289, Score=271.71
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2821, AOC=0.1992, Score=481.23
+Solution WITH disc: ACC=0.1795, AOC=0.1296, Score=309.12
+Winner: WITH DISC
+  Checkpoint at seed 190/400
+Solution WITHOUT disc: ACC=0.2222, AOC=0.2222, Score=444.44
+Solution WITH disc: ACC=0.0958, AOC=0.1498, Score=245.54
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2963, AOC=0.1926, Score=488.89
+Solution WITH disc: ACC=0.1898, AOC=0.1242, Score=313.97
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2881, AOC=0.1835, Score=471.57
+Solution WITH disc: ACC=0.1811, AOC=0.1250, Score=306.10
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2444, AOC=0.1605, Score=404.94
+Solution WITH disc: ACC=0.1333, AOC=0.1123, Score=245.61
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2037, AOC=0.1796, Score=383.28
+Solution WITH disc: ACC=0.1074, AOC=0.1236, Score=231.02
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2370, AOC=0.1852, Score=422.22
+Solution WITH disc: ACC=0.1704, AOC=0.1278, Score=298.13
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2337, AOC=0.1811, Score=414.79
+Solution WITH disc: ACC=0.1686, AOC=0.1196, Score=288.13
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2817, AOC=0.1672, Score=448.97
+Solution WITH disc: ACC=0.1865, AOC=0.1055, Score=291.97
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3257, AOC=0.2121, Score=537.79
+Solution WITH disc: ACC=0.2107, AOC=0.1418, Score=352.50
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2333, AOC=0.2099, Score=443.21
+Solution WITH disc: ACC=0.1778, AOC=0.1365, Score=314.25
+Winner: WITH DISC
+  Checkpoint at seed 200/400
+Solution WITHOUT disc: ACC=0.2222, AOC=0.1771, Score=399.33
+Solution WITH disc: ACC=0.1341, AOC=0.1258, Score=259.86
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3370, AOC=0.2222, Score=559.26
+Solution WITH disc: ACC=0.1815, AOC=0.1479, Score=329.37
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1801, AOC=0.2121, Score=392.20
+Solution WITH disc: ACC=0.1149, AOC=0.1307, Score=245.61
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2540, AOC=0.1773, Score=431.30
+Solution WITH disc: ACC=0.1627, AOC=0.1104, Score=273.13
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2421, AOC=0.1717, Score=413.78
+Solution WITH disc: ACC=0.1548, AOC=0.1178, Score=272.56
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2607, AOC=0.2074, Score=468.09
+Solution WITH disc: ACC=0.1709, AOC=0.1345, Score=305.42
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2797, AOC=0.1944, Score=474.14
+Solution WITH disc: ACC=0.1954, AOC=0.1217, Score=317.11
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2407, AOC=0.1963, Score=437.04
+Solution WITH disc: ACC=0.1519, AOC=0.1250, Score=276.84
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1905, AOC=0.1811, Score=371.55
+Solution WITH disc: ACC=0.1151, AOC=0.1351, Score=250.17
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1778, AOC=0.1818, Score=359.60
+Solution WITH disc: ACC=0.1185, AOC=0.1200, Score=238.52
+Winner: WITH DISC
+  Checkpoint at seed 210/400
+Solution WITHOUT disc: ACC=0.2605, AOC=0.1963, Score=456.83
+Solution WITH disc: ACC=0.1686, AOC=0.1273, Score=295.92
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1992, AOC=0.1773, Score=376.56
+Solution WITH disc: ACC=0.1264, AOC=0.1215, Score=247.93
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3294, AOC=0.2020, Score=531.39
+Solution WITH disc: ACC=0.2222, AOC=0.1400, Score=362.20
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3148, AOC=0.1998, Score=514.59
+Solution WITH disc: ACC=0.2185, AOC=0.1326, Score=351.14
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2407, AOC=0.2148, Score=455.56
+Solution WITH disc: ACC=0.1333, AOC=0.1422, Score=275.56
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2444, AOC=0.2155, Score=459.93
+Solution WITH disc: ACC=0.1667, AOC=0.1419, Score=308.58
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2754, AOC=0.2111, Score=486.47
+Solution WITH disc: ACC=0.1353, AOC=0.1378, Score=273.06
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2741, AOC=0.2066, Score=480.66
+Solution WITH disc: ACC=0.1815, AOC=0.1312, Score=312.72
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2556, AOC=0.2025, Score=458.02
+Solution WITH disc: ACC=0.1593, AOC=0.1221, Score=281.33
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2564, AOC=0.2155, Score=471.90
+Solution WITH disc: ACC=0.1282, AOC=0.1359, Score=264.13
+Winner: WITH DISC
+  Checkpoint at seed 220/400
+Solution WITHOUT disc: ACC=0.2444, AOC=0.1837, Score=428.13
+Solution WITH disc: ACC=0.1259, AOC=0.1249, Score=250.82
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2949, AOC=0.1959, Score=490.76
+Solution WITH disc: ACC=0.1838, AOC=0.1324, Score=316.12
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2099, AOC=0.2121, Score=422.00
+Solution WITH disc: ACC=0.1276, AOC=0.1402, Score=267.77
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2479, AOC=0.1837, Score=431.55
+Solution WITH disc: ACC=0.1709, AOC=0.1277, Score=298.67
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2184, AOC=0.1944, Score=412.84
+Solution WITH disc: ACC=0.1494, AOC=0.1337, Score=283.09
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2593, AOC=0.1796, Score=438.83
+Solution WITH disc: ACC=0.1630, AOC=0.1237, Score=286.70
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2407, AOC=0.1771, Score=417.85
+Solution WITH disc: ACC=0.1435, AOC=0.1167, Score=260.26
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2738, AOC=0.1944, Score=468.25
+Solution WITH disc: ACC=0.1825, AOC=0.1312, Score=313.75
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.1944, Score=416.67
+Solution WITH disc: ACC=0.1235, AOC=0.1264, Score=249.86
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2261, AOC=0.1963, Score=422.35
+Solution WITH disc: ACC=0.1149, AOC=0.1310, Score=245.90
+Winner: WITH DISC
+  Checkpoint at seed 230/400
+Solution WITHOUT disc: ACC=0.3009, AOC=0.1878, Score=488.73
+Solution WITH disc: ACC=0.1667, AOC=0.1273, Score=293.98
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2069, AOC=0.1951, Score=401.96
+Solution WITH disc: ACC=0.1303, AOC=0.1272, Score=257.48
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2259, AOC=0.2130, Score=438.89
+Solution WITH disc: ACC=0.1481, AOC=0.1384, Score=286.52
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2644, AOC=0.1852, Score=449.55
+Solution WITH disc: ACC=0.1724, AOC=0.1234, Score=295.78
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2265, AOC=0.1704, Score=396.87
+Solution WITH disc: ACC=0.1496, AOC=0.1125, Score=262.09
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2421, AOC=0.2121, Score=454.18
+Solution WITH disc: ACC=0.1548, AOC=0.1410, Score=295.79
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3111, AOC=0.1928, Score=503.87
+Solution WITH disc: ACC=0.1815, AOC=0.1306, Score=312.05
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2667, AOC=0.1899, Score=456.57
+Solution WITH disc: ACC=0.1370, AOC=0.1214, Score=258.47
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.2058, Score=427.98
+Solution WITH disc: ACC=0.1256, AOC=0.1354, Score=261.05
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2912, AOC=0.1852, Score=476.37
+Solution WITH disc: ACC=0.2184, AOC=0.1380, Score=356.35
+Winner: WITH DISC
+  Checkpoint at seed 240/400
+Solution WITHOUT disc: ACC=0.2037, AOC=0.1827, Score=386.42
+Solution WITH disc: ACC=0.1074, AOC=0.1234, Score=230.82
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1795, AOC=0.1798, Score=359.29
+Solution WITH disc: ACC=0.1111, AOC=0.1152, Score=226.36
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2556, AOC=0.2031, Score=458.70
+Solution WITH disc: ACC=0.1926, AOC=0.1322, Score=324.77
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2619, AOC=0.2160, Score=477.95
+Solution WITH disc: ACC=0.1190, AOC=0.1428, Score=261.81
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2667, AOC=0.1976, Score=464.31
+Solution WITH disc: ACC=0.1867, AOC=0.1316, Score=318.27
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2593, AOC=0.1773, Score=436.59
+Solution WITH disc: ACC=0.1276, AOC=0.1060, Score=233.59
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2881, AOC=0.1798, Score=467.86
+Solution WITH disc: ACC=0.2222, AOC=0.1190, Score=341.22
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2593, AOC=0.1953, Score=454.55
+Solution WITH disc: ACC=0.1407, AOC=0.1237, Score=264.43
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2720, AOC=0.1914, Score=463.39
+Solution WITH disc: ACC=0.1648, AOC=0.1358, Score=300.57
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2857, AOC=0.1886, Score=474.27
+Solution WITH disc: ACC=0.1905, AOC=0.1256, Score=316.07
+Winner: WITH DISC
+  Checkpoint at seed 250/400
+Solution WITHOUT disc: ACC=0.2500, AOC=0.2191, Score=469.14
+Solution WITH disc: ACC=0.1310, AOC=0.1435, Score=274.45
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1916, AOC=0.1753, Score=366.88
+Solution WITH disc: ACC=0.1379, AOC=0.1141, Score=252.05
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2634, AOC=0.2068, Score=470.16
+Solution WITH disc: ACC=0.1399, AOC=0.1403, Score=280.21
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2692, AOC=0.1975, Score=466.76
+Solution WITH disc: ACC=0.1197, AOC=0.1364, Score=256.07
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2778, AOC=0.1951, Score=472.84
+Solution WITH disc: ACC=0.1259, AOC=0.1126, Score=238.53
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2452, AOC=0.2088, Score=453.96
+Solution WITH disc: ACC=0.1303, AOC=0.1387, Score=268.98
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2261, AOC=0.1845, Score=410.57
+Solution WITH disc: ACC=0.1533, AOC=0.1199, Score=273.19
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1926, AOC=0.1975, Score=390.12
+Solution WITH disc: ACC=0.1222, AOC=0.1327, Score=254.94
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2099, AOC=0.1852, Score=395.06
+Solution WITH disc: ACC=0.1317, AOC=0.1364, Score=268.12
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2815, AOC=0.1938, Score=475.27
+Solution WITH disc: ACC=0.1889, AOC=0.1212, Score=310.06
+Winner: WITH DISC
+  Checkpoint at seed 260/400
+Solution WITHOUT disc: ACC=0.2593, AOC=0.1878, Score=447.06
+Solution WITH disc: ACC=0.1481, AOC=0.1251, Score=273.21
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2619, AOC=0.1970, Score=458.87
+Solution WITH disc: ACC=0.1230, AOC=0.1349, Score=257.90
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2593, AOC=0.1998, Score=459.03
+Solution WITH disc: ACC=0.1667, AOC=0.1306, Score=297.23
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2452, AOC=0.1914, Score=436.57
+Solution WITH disc: ACC=0.1648, AOC=0.1289, Score=293.60
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2889, AOC=0.2088, Score=497.64
+Solution WITH disc: ACC=0.1467, AOC=0.1373, Score=284.01
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2183, AOC=0.1852, Score=403.44
+Solution WITH disc: ACC=0.1389, AOC=0.1349, Score=273.79
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1963, AOC=0.2039, Score=400.19
+Solution WITH disc: ACC=0.1111, AOC=0.1264, Score=237.55
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2016, AOC=0.2099, Score=411.52
+Solution WITH disc: ACC=0.1317, AOC=0.1303, Score=262.01
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1648, AOC=0.2222, Score=386.97
+Solution WITH disc: ACC=0.0920, AOC=0.1473, Score=239.28
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2452, AOC=0.1951, Score=440.27
+Solution WITH disc: ACC=0.1724, AOC=0.1300, Score=302.46
+Winner: WITH DISC
+  Checkpoint at seed 270/400
+Solution WITHOUT disc: ACC=0.2444, AOC=0.2155, Score=459.93
+Solution WITH disc: ACC=0.1407, AOC=0.1374, Score=278.15
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2111, AOC=0.1771, Score=388.22
+Solution WITH disc: ACC=0.1148, AOC=0.1179, Score=232.75
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2667, AOC=0.2130, Score=479.63
+Solution WITH disc: ACC=0.1778, AOC=0.1269, Score=304.64
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3142, AOC=0.2051, Score=519.23
+Solution WITH disc: ACC=0.1877, AOC=0.1360, Score=323.69
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3180, AOC=0.1901, Score=508.13
+Solution WITH disc: ACC=0.2031, AOC=0.1223, Score=325.33
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2667, AOC=0.1951, Score=461.73
+Solution WITH disc: ACC=0.1600, AOC=0.1252, Score=285.22
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2381, AOC=0.2016, Score=439.74
+Solution WITH disc: ACC=0.1349, AOC=0.1329, Score=267.78
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2757, AOC=0.2155, Score=491.21
+Solution WITH disc: ACC=0.1770, AOC=0.1473, Score=324.23
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2183, AOC=0.1798, Score=398.05
+Solution WITH disc: ACC=0.1349, AOC=0.1152, Score=250.10
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2370, AOC=0.1872, Score=424.24
+Solution WITH disc: ACC=0.1778, AOC=0.1227, Score=300.44
+Winner: WITH DISC
+  Checkpoint at seed 280/400
+Solution WITHOUT disc: ACC=0.2428, AOC=0.1926, Score=435.39
+Solution WITH disc: ACC=0.1317, AOC=0.1336, Score=265.30
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3410, AOC=0.1717, Score=512.71
+Solution WITH disc: ACC=0.2031, AOC=0.1169, Score=319.98
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2857, AOC=0.1811, Score=466.78
+Solution WITH disc: ACC=0.1944, AOC=0.1148, Score=309.29
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2963, AOC=0.1852, Score=481.48
+Solution WITH disc: ACC=0.1799, AOC=0.1239, Score=303.81
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2667, AOC=0.1998, Score=466.44
+Solution WITH disc: ACC=0.1667, AOC=0.1339, Score=300.61
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2140, AOC=0.1845, Score=398.50
+Solution WITH disc: ACC=0.1235, AOC=0.1265, Score=249.91
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1811, AOC=0.1704, Score=351.44
+Solution WITH disc: ACC=0.1111, AOC=0.1180, Score=229.14
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3180, AOC=0.2155, Score=533.50
+Solution WITH disc: ACC=0.1992, AOC=0.1393, Score=338.50
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2133, AOC=0.1992, Score=412.51
+Solution WITH disc: ACC=0.1289, AOC=0.1347, Score=263.63
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2619, AOC=0.2031, Score=465.05
+Solution WITH disc: ACC=0.1508, AOC=0.1357, Score=286.49
+Winner: WITH DISC
+  Checkpoint at seed 290/400
+Solution WITHOUT disc: ACC=0.2667, AOC=0.1796, Score=446.24
+Solution WITH disc: ACC=0.1963, AOC=0.1081, Score=304.42
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3111, AOC=0.2148, Score=525.93
+Solution WITH disc: ACC=0.2148, AOC=0.1381, Score=352.91
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2529, AOC=0.1818, Score=434.69
+Solution WITH disc: ACC=0.1609, AOC=0.1107, Score=271.64
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2817, AOC=0.1998, Score=481.52
+Solution WITH disc: ACC=0.1667, AOC=0.1193, Score=285.98
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2103, AOC=0.2121, Score=422.44
+Solution WITH disc: ACC=0.1071, AOC=0.1412, Score=248.32
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2393, AOC=0.1926, Score=431.91
+Solution WITH disc: ACC=0.1325, AOC=0.1204, Score=252.88
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2650, AOC=0.1998, Score=464.73
+Solution WITH disc: ACC=0.1966, AOC=0.1374, Score=333.95
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3222, AOC=0.1944, Score=516.67
+Solution WITH disc: ACC=0.1556, AOC=0.1324, Score=287.91
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2682, AOC=0.2056, Score=473.75
+Solution WITH disc: ACC=0.1724, AOC=0.1312, Score=303.57
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1852, AOC=0.2160, Score=401.23
+Solution WITH disc: ACC=0.1074, AOC=0.1435, Score=250.93
+Winner: WITH DISC
+  Checkpoint at seed 300/400
+Solution WITHOUT disc: ACC=0.2815, AOC=0.2160, Score=497.53
+Solution WITH disc: ACC=0.1519, AOC=0.1412, Score=293.06
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2469, AOC=0.2222, Score=469.14
+Solution WITH disc: ACC=0.1029, AOC=0.1467, Score=249.55
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2593, AOC=0.2016, Score=460.91
+Solution WITH disc: ACC=0.1646, AOC=0.1333, Score=297.89
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2500, AOC=0.2155, Score=465.49
+Solution WITH disc: ACC=0.1310, AOC=0.1457, Score=276.70
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2414, AOC=0.1852, Score=426.56
+Solution WITH disc: ACC=0.1111, AOC=0.1286, Score=239.73
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2889, AOC=0.1785, Score=467.34
+Solution WITH disc: ACC=0.2000, AOC=0.1275, Score=327.53
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2741, AOC=0.2160, Score=490.12
+Solution WITH disc: ACC=0.1593, AOC=0.1353, Score=294.54
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2111, AOC=0.2155, Score=426.60
+Solution WITH disc: ACC=0.1000, AOC=0.1436, Score=243.58
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1956, AOC=0.2000, Score=395.56
+Solution WITH disc: ACC=0.1200, AOC=0.1345, Score=254.54
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2716, AOC=0.1687, Score=440.33
+Solution WITH disc: ACC=0.1564, AOC=0.1110, Score=267.37
+Winner: WITH DISC
+  Checkpoint at seed 310/400
+Solution WITHOUT disc: ACC=0.2720, AOC=0.1926, Score=464.62
+Solution WITH disc: ACC=0.1801, AOC=0.1245, Score=304.53
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1963, AOC=0.2080, Score=404.30
+Solution WITH disc: ACC=0.1222, AOC=0.1292, Score=251.47
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2381, AOC=0.1877, Score=425.81
+Solution WITH disc: ACC=0.1548, AOC=0.1213, Score=276.10
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2685, AOC=0.1837, Score=452.21
+Solution WITH disc: ACC=0.1528, AOC=0.1260, Score=278.74
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2350, AOC=0.2088, Score=443.80
+Solution WITH disc: ACC=0.1496, AOC=0.1349, Score=284.44
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2393, AOC=0.2148, Score=454.13
+Solution WITH disc: ACC=0.1624, AOC=0.1407, Score=303.13
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2815, AOC=0.1818, Score=463.30
+Solution WITH disc: ACC=0.1704, AOC=0.1271, Score=297.46
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2667, AOC=0.2020, Score=468.69
+Solution WITH disc: ACC=0.1593, AOC=0.1234, Score=282.68
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2299, AOC=0.1975, Score=427.42
+Solution WITH disc: ACC=0.1533, AOC=0.1277, Score=280.96
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2407, AOC=0.1874, Score=428.17
+Solution WITH disc: ACC=0.1667, AOC=0.1159, Score=282.59
+Winner: WITH DISC
+  Checkpoint at seed 320/400
+Solution WITHOUT disc: ACC=0.2720, AOC=0.2051, Score=477.08
+Solution WITH disc: ACC=0.1418, AOC=0.1411, Score=282.82
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2370, AOC=0.1897, Score=426.71
+Solution WITH disc: ACC=0.1481, AOC=0.1290, Score=277.15
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2644, AOC=0.1934, Score=457.78
+Solution WITH disc: ACC=0.1494, AOC=0.1237, Score=273.15
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2381, AOC=0.1860, Score=424.12
+Solution WITH disc: ACC=0.1468, AOC=0.1212, Score=268.02
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2063, AOC=0.1759, Score=382.28
+Solution WITH disc: ACC=0.0992, AOC=0.1288, Score=227.98
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2593, AOC=0.1973, Score=456.57
+Solution WITH disc: ACC=0.1605, AOC=0.1265, Score=286.99
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2308, AOC=0.1796, Score=410.34
+Solution WITH disc: ACC=0.1068, AOC=0.1221, Score=228.89
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2481, AOC=0.2059, Score=454.10
+Solution WITH disc: ACC=0.1296, AOC=0.1374, Score=267.03
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2479, AOC=0.2093, Score=457.18
+Solution WITH disc: ACC=0.1410, AOC=0.1371, Score=278.11
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2185, AOC=0.1975, Score=416.05
+Solution WITH disc: ACC=0.1148, AOC=0.1274, Score=242.20
+Winner: WITH DISC
+  Checkpoint at seed 330/400
+Solution WITHOUT disc: ACC=0.2444, AOC=0.2111, Score=455.56
+Solution WITH disc: ACC=0.1333, AOC=0.1392, Score=272.48
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2835, AOC=0.1944, Score=477.97
+Solution WITH disc: ACC=0.1609, AOC=0.1153, Score=276.23
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2634, AOC=0.2160, Score=479.42
+Solution WITH disc: ACC=0.1399, AOC=0.1372, Score=277.16
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2551, AOC=0.1902, Score=445.38
+Solution WITH disc: ACC=0.1399, AOC=0.1302, Score=270.15
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2452, AOC=0.1998, Score=444.99
+Solution WITH disc: ACC=0.1877, AOC=0.1303, Score=317.99
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2500, AOC=0.1893, Score=439.30
+Solution WITH disc: ACC=0.1706, AOC=0.1224, Score=293.01
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2650, AOC=0.1810, Score=445.93
+Solution WITH disc: ACC=0.1538, AOC=0.1312, Score=285.03
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2296, AOC=0.1872, Score=416.84
+Solution WITH disc: ACC=0.1074, AOC=0.1219, Score=229.28
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2111, AOC=0.2088, Score=419.87
+Solution WITH disc: ACC=0.0926, AOC=0.1409, Score=233.48
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2143, AOC=0.1751, Score=389.37
+Solution WITH disc: ACC=0.1111, AOC=0.1139, Score=224.99
+Winner: WITH DISC
+  Checkpoint at seed 340/400
+Solution WITHOUT disc: ACC=0.2222, AOC=0.1914, Score=413.58
+Solution WITH disc: ACC=0.1407, AOC=0.1321, Score=272.87
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2262, AOC=0.1770, Score=403.15
+Solution WITH disc: ACC=0.1230, AOC=0.1197, Score=242.68
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2346, AOC=0.2088, Score=443.32
+Solution WITH disc: ACC=0.1564, AOC=0.1380, Score=294.33
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3768, AOC=0.1717, Score=548.53
+Solution WITH disc: ACC=0.2512, AOC=0.1112, Score=362.42
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2415, AOC=0.1885, Score=430.02
+Solution WITH disc: ACC=0.1449, AOC=0.1241, Score=269.06
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3218, AOC=0.1944, Score=516.28
+Solution WITH disc: ACC=0.1801, AOC=0.1261, Score=306.20
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2912, AOC=0.1970, Score=488.16
+Solution WITH disc: ACC=0.1801, AOC=0.1356, Score=315.68
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2346, AOC=0.2148, Score=449.38
+Solution WITH disc: ACC=0.1440, AOC=0.1424, Score=286.40
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2950, AOC=0.2191, Score=514.15
+Solution WITH disc: ACC=0.1724, AOC=0.1436, Score=316.00
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2756, AOC=0.2044, Score=479.93
+Solution WITH disc: ACC=0.1733, AOC=0.1355, Score=308.82
+Winner: WITH DISC
+  Checkpoint at seed 350/400
+Solution WITHOUT disc: ACC=0.2667, AOC=0.2037, Score=470.37
+Solution WITH disc: ACC=0.1296, AOC=0.1298, Score=259.48
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2387, AOC=0.1918, Score=430.45
+Solution WITH disc: ACC=0.1399, AOC=0.1278, Score=267.71
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3016, AOC=0.1919, Score=493.51
+Solution WITH disc: ACC=0.1905, AOC=0.1287, Score=319.22
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2704, AOC=0.2016, Score=472.02
+Solution WITH disc: ACC=0.1815, AOC=0.1323, Score=313.78
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2912, AOC=0.1893, Score=480.49
+Solution WITH disc: ACC=0.2069, AOC=0.1173, Score=324.16
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2519, AOC=0.1899, Score=441.75
+Solution WITH disc: ACC=0.1741, AOC=0.1172, Score=291.29
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2452, AOC=0.1959, Score=441.10
+Solution WITH disc: ACC=0.1571, AOC=0.1249, Score=281.97
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2989, AOC=0.2088, Score=507.60
+Solution WITH disc: ACC=0.2107, AOC=0.1328, Score=343.56
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2540, AOC=0.1650, Score=418.95
+Solution WITH disc: ACC=0.1349, AOC=0.1155, Score=250.46
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2490, AOC=0.2148, Score=463.86
+Solution WITH disc: ACC=0.1724, AOC=0.1400, Score=312.42
+Winner: WITH DISC
+  Checkpoint at seed 360/400
+Solution WITHOUT disc: ACC=0.2222, AOC=0.1902, Score=412.46
+Solution WITH disc: ACC=0.1264, AOC=0.1304, Score=256.80
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2519, AOC=0.2222, Score=474.07
+Solution WITH disc: ACC=0.1185, AOC=0.1509, Score=269.46
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1934, AOC=0.1975, Score=390.95
+Solution WITH disc: ACC=0.1152, AOC=0.1299, Score=245.12
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2407, AOC=0.2020, Score=442.76
+Solution WITH disc: ACC=0.1185, AOC=0.1424, Score=260.94
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2720, AOC=0.2037, Score=475.73
+Solution WITH disc: ACC=0.1916, AOC=0.1354, Score=327.00
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1963, AOC=0.2020, Score=398.32
+Solution WITH disc: ACC=0.1185, AOC=0.1302, Score=248.71
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2540, AOC=0.1773, Score=431.30
+Solution WITH disc: ACC=0.1429, AOC=0.1145, Score=257.32
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1992, AOC=0.1751, Score=374.32
+Solution WITH disc: ACC=0.0996, AOC=0.1143, Score=213.90
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2407, AOC=0.2037, Score=444.44
+Solution WITH disc: ACC=0.1444, AOC=0.1329, Score=277.37
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2704, AOC=0.1753, Score=445.68
+Solution WITH disc: ACC=0.1667, AOC=0.1182, Score=284.84
+Winner: WITH DISC
+  Checkpoint at seed 370/400
+Solution WITHOUT disc: ACC=0.2375, AOC=0.2065, Score=444.06
+Solution WITH disc: ACC=0.1034, AOC=0.1336, Score=237.01
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2107, AOC=0.1984, Score=409.08
+Solution WITH disc: ACC=0.1149, AOC=0.1288, Score=243.72
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2185, AOC=0.2222, Score=440.74
+Solution WITH disc: ACC=0.1000, AOC=0.1419, Score=241.86
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3086, AOC=0.2019, Score=510.49
+Solution WITH disc: ACC=0.2016, AOC=0.1374, Score=339.06
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2375, AOC=0.2148, Score=452.36
+Solution WITH disc: ACC=0.1379, AOC=0.1410, Score=278.90
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3065, AOC=0.2121, Score=518.63
+Solution WITH disc: ACC=0.2337, AOC=0.1363, Score=370.03
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2148, AOC=0.1893, Score=404.12
+Solution WITH disc: ACC=0.1259, AOC=0.1205, Score=246.46
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3067, AOC=0.2047, Score=511.38
+Solution WITH disc: ACC=0.1733, AOC=0.1257, Score=299.01
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2852, AOC=0.2016, Score=486.83
+Solution WITH disc: ACC=0.1741, AOC=0.1292, Score=303.32
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2912, AOC=0.2093, Score=500.45
+Solution WITH disc: ACC=0.1724, AOC=0.1265, Score=298.95
+Winner: WITH DISC
+  Checkpoint at seed 380/400
+Solution WITHOUT disc: ACC=0.3222, AOC=0.2160, Score=538.27
+Solution WITH disc: ACC=0.2037, AOC=0.1462, Score=349.90
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2738, AOC=0.1992, Score=472.99
+Solution WITH disc: ACC=0.1746, AOC=0.1296, Score=304.23
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2350, AOC=0.2130, Score=448.01
+Solution WITH disc: ACC=0.1410, AOC=0.1380, Score=278.99
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.1815, AOC=0.1773, Score=358.81
+Solution WITH disc: ACC=0.1111, AOC=0.1095, Score=220.63
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2692, AOC=0.1717, Score=440.95
+Solution WITH disc: ACC=0.1026, AOC=0.1174, Score=219.98
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3000, AOC=0.1942, Score=494.16
+Solution WITH disc: ACC=0.1778, AOC=0.1322, Score=309.94
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2031, AOC=0.1837, Score=386.75
+Solution WITH disc: ACC=0.1226, AOC=0.1225, Score=245.07
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2995, AOC=0.2222, Score=521.74
+Solution WITH disc: ACC=0.1643, AOC=0.1464, Score=310.68
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.2031, Score=425.36
+Solution WITH disc: ACC=0.1111, AOC=0.1306, Score=241.71
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2222, AOC=0.1605, Score=382.72
+Solution WITH disc: ACC=0.1296, AOC=0.1093, Score=238.97
+Winner: WITH DISC
+  Checkpoint at seed 390/400
+Solution WITHOUT disc: ACC=0.2074, AOC=0.2020, Score=409.43
+Solution WITH disc: ACC=0.1222, AOC=0.1345, Score=256.67
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3037, AOC=0.2160, Score=519.75
+Solution WITH disc: ACC=0.1667, AOC=0.1443, Score=311.00
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2634, AOC=0.2148, Score=478.19
+Solution WITH disc: ACC=0.1893, AOC=0.1353, Score=324.58
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2074, AOC=0.2111, Score=418.52
+Solution WITH disc: ACC=0.1111, AOC=0.1359, Score=246.99
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2183, AOC=0.1852, Score=403.44
+Solution WITH disc: ACC=0.1508, AOC=0.1200, Score=270.84
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2815, AOC=0.2000, Score=481.48
+Solution WITH disc: ACC=0.1667, AOC=0.1343, Score=300.92
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.3034, AOC=0.2020, Score=505.44
+Solution WITH disc: ACC=0.2179, AOC=0.1251, Score=343.02
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2704, AOC=0.1953, Score=465.66
+Solution WITH disc: ACC=0.1852, AOC=0.1217, Score=306.89
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2031, AOC=0.1687, Score=371.79
+Solution WITH disc: ACC=0.1341, AOC=0.1240, Score=258.12
+Winner: WITH DISC
+Solution WITHOUT disc: ACC=0.2387, AOC=0.2099, Score=448.56
+Solution WITH disc: ACC=0.1317, AOC=0.1429, Score=274.63
+Winner: WITH DISC
+  Checkpoint at seed 400/400
+  ✓ Node 10 complete
+
+✓ Extension complete: multi_algorithm_results/.checkpoint_50pct_greedy.pkl
+

@@ -17,13 +17,13 @@
     },
     "weight_strategy": "strong_favor"
   },
-  "max_seed": 400,
+  "max_seed": 1000,
   "data": {
     "5": [
       {
         "seed": 1,
         "success": true,
-        "cost": 0.20089285714285715
+        "cost": 0.3859126984126984
       },
       {
         "seed": 2,
@@ -50,7 +50,7 @@
       {
         "seed": 1,
         "success": true,
-        "cost": 0.197702589807853
+        "cost": 0.38998132586367884
       },
       {
         "seed": 2,
@@ -104,7 +104,7 @@
       {
         "seed": 1,
         "success": true,
-        "cost": 0.22395833333333334
+        "cost": 0.21150278293135433
       },
       {
         "seed": 2,
@@ -131,7 +131,7 @@
       {
         "seed": 1,
         "success": true,
-        "cost": 0.22395833333333334
+        "cost": 0.3314179189435337
       },
       {
         "seed": 2,
@@ -153,163 +153,220 @@
         "success": true,
         "cost": 0.3120671090157732
       }
+    ],
+    "10": [
+      {
+        "seed": 1,
+        "success": true,
+        "cost": 0.24614036473161896
+      },
+      {
+        "seed": 2,
+        "success": true,
+        "cost": 0.3395136099955377
+      },
+      {
+        "seed": 3,
+        "success": true,
+        "cost": 0.2959589812936669
+      },
+      {
+        "seed": 4,
+        "success": true,
+        "cost": 0.2774340353425321
+      },
+      {
+        "seed": 5,
+        "success": true,
+        "cost": 0.26783528785739136
+      }
     ]
   },
   "nodes_status": {
     "5": {
-      "complete_up_to_seed": 400,
+      "complete_up_to_seed": 1000,
       "status": "complete"
     },
     "6": {
-      "complete_up_to_seed": 400,
+      "complete_up_to_seed": 1000,
       "status": "complete"
     },
     "7": {
-      "complete_up_to_seed": 400,
+      "complete_up_to_seed": 1000,
       "status": "complete"
     },
     "8": {
-      "complete_up_to_seed": 400,
+      "complete_up_to_seed": 1000,
       "status": "complete"
     },
     "9": {
-      "complete_up_to_seed": 400,
+      "complete_up_to_seed": 1000,
+      "status": "complete"
+    },
+    "10": {
+      "complete_up_to_seed": 1000,
       "status": "complete"
     }
   },
   "statistics": {
     "5": {
-      "n": 400,
-      "n_total": 400,
+      "n": 1000,
+      "n_total": 1000,
       "success_rate": 1.0,
-      "cost_mean": 0.4819448904730146,
-      "cost_std": 0.061389349407406334,
-      "cost_median": 0.4975925925925926,
-      "cost_min": 0.20089285714285715,
-      "cost_max": 0.5971250971250971,
-      "cost_cv": 12.737835927081727,
-      "time_mean": 0.0004005402326583862,
-      "time_std": 0.00013436606680084022,
-      "time_median": 0.00037109851837158203,
-      "time_min": 0.0003147125244140625,
-      "time_max": 0.001741170883178711,
-      "discretionary_used_mean": 1.0075,
+      "cost_mean": 0.48107947103577714,
+      "cost_std": 0.05976552959342692,
+      "cost_median": 0.49431034482758623,
+      "cost_min": 0.3201149425287356,
+      "cost_max": 0.6029411764705882,
+      "cost_cv": 12.423213458838749,
+      "time_mean": 0.00039716339111328127,
+      "time_std": 5.7960086680427824e-05,
+      "time_median": 0.0003839731216430664,
+      "time_min": 0.0003418922424316406,
+      "time_max": 0.001699686050415039,
+      "discretionary_used_mean": 1.005,
       "quality": {
-        "match_rate": 0.004,
-        "cost_diff_mean": 0.25031424836570026,
-        "cost_diff_std": 0.05909131710941818,
-        "cost_ratio_mean": 2.0909011582537005,
-        "cost_ratio_std": 0.29453683957978216,
-        "node_overlap_mean": 0.9276,
-        "edge_overlap_mean": 0.5166666666666667
+        "match_rate": 0.0,
+        "cost_diff_mean": 0.2516376405541041,
+        "cost_diff_std": 0.05602642376643775,
+        "cost_ratio_mean": 2.1029836979893326,
+        "cost_ratio_std": 0.2789451068387422,
+        "node_overlap_mean": 0.924,
+        "edge_overlap_mean": 0.5075
       }
     },
     "6": {
-      "n": 400,
-      "n_total": 400,
+      "n": 1000,
+      "n_total": 1000,
       "success_rate": 1.0,
-      "cost_mean": 0.3751368826827276,
-      "cost_std": 0.05000385347597436,
-      "cost_median": 0.3861732379729812,
-      "cost_min": 0.197702589807853,
-      "cost_max": 0.45153508771929823,
-      "cost_cv": 13.329495388024847,
-      "time_mean": 0.000450669527053833,
-      "time_std": 6.086806711864962e-05,
-      "time_median": 0.0004343986511230469,
-      "time_min": 0.00037026405334472656,
-      "time_max": 0.0007259845733642578,
-      "discretionary_used_mean": 1.0125,
+      "cost_mean": 0.37519297642031013,
+      "cost_std": 0.04817961943716308,
+      "cost_median": 0.38450197636638317,
+      "cost_min": 0.24433862433862436,
+      "cost_max": 0.4602564102564103,
+      "cost_cv": 12.841290339931588,
+      "time_mean": 0.0004613409042358398,
+      "time_std": 4.626657105034488e-05,
+      "time_median": 0.00044798851013183594,
+      "time_min": 0.00039887428283691406,
+      "time_max": 0.0008156299591064453,
+      "discretionary_used_mean": 1.008,
       "quality": {
         "match_rate": 0.0,
-        "cost_diff_mean": 0.20289631389373788,
-        "cost_diff_std": 0.048719449068760454,
-        "cost_ratio_mean": 2.190400315060253,
-        "cost_ratio_std": 0.33841512412664504,
-        "node_overlap_mean": 0.8774666666666667,
-        "edge_overlap_mean": 0.4365333333333334
+        "cost_diff_mean": 0.20271512158001015,
+        "cost_diff_std": 0.04600694755222877,
+        "cost_ratio_mean": 2.189337373255826,
+        "cost_ratio_std": 0.31477520253061,
+        "node_overlap_mean": 0.8860000000000001,
+        "edge_overlap_mean": 0.4538333333333333
       }
     },
     "7": {
-      "n": 400,
-      "n_total": 400,
+      "n": 1000,
+      "n_total": 1000,
       "success_rate": 1.0,
-      "cost_mean": 0.3223959912552236,
-      "cost_std": 0.03988365284971516,
-      "cost_median": 0.32525946275946277,
-      "cost_min": 0.22655948442238766,
+      "cost_mean": 0.32114242451761194,
+      "cost_std": 0.0395417332277063,
+      "cost_median": 0.32276646334748604,
+      "cost_min": 0.22037037037037038,
       "cost_max": 0.4043055555555556,
-      "cost_cv": 12.371013887124114,
-      "time_mean": 0.0006323999166488647,
-      "time_std": 0.0001032972946344638,
-      "time_median": 0.000598907470703125,
-      "time_min": 0.0005257129669189453,
-      "time_max": 0.0014617443084716797,
-      "discretionary_used_mean": 1.5275,
+      "cost_cv": 12.312833873351346,
+      "time_mean": 0.0006190845966339111,
+      "time_std": 5.9455044575696215e-05,
+      "time_median": 0.0006010532379150391,
+      "time_min": 0.0005433559417724609,
+      "time_max": 0.000942230224609375,
+      "discretionary_used_mean": 1.512,
       "quality": {
         "match_rate": 0.0,
-        "cost_diff_mean": 0.16821354200239744,
-        "cost_diff_std": 0.040090450814482266,
-        "cost_ratio_mean": 2.114799350368755,
-        "cost_ratio_std": 0.313525350812067,
-        "node_overlap_mean": 0.9414285714285714,
-        "edge_overlap_mean": 0.5446666666666666
+        "cost_diff_mean": 0.16959293145629775,
+        "cost_diff_std": 0.03886673887485977,
+        "cost_ratio_mean": 2.1281872848241843,
+        "cost_ratio_std": 0.3068754972121612,
+        "node_overlap_mean": 0.9377738095238095,
+        "edge_overlap_mean": 0.5362083333333333
       }
     },
     "8": {
-      "n": 400,
-      "n_total": 400,
+      "n": 1000,
+      "n_total": 1000,
       "success_rate": 1.0,
-      "cost_mean": 0.27408057340588315,
-      "cost_std": 0.030795750076430817,
-      "cost_median": 0.27563561125383285,
+      "cost_mean": 0.27633871389956915,
+      "cost_std": 0.030985276493259505,
+      "cost_median": 0.27860993628651254,
       "cost_min": 0.19443323468747195,
       "cost_max": 0.3406926406926407,
-      "cost_cv": 11.236020741545115,
-      "time_mean": 0.0008220303058624267,
-      "time_std": 0.0001255371720677278,
-      "time_median": 0.0007829666137695312,
-      "time_min": 0.0006935596466064453,
-      "time_max": 0.002155303955078125,
-      "discretionary_used_mean": 1.57,
+      "cost_cv": 11.212788847428957,
+      "time_mean": 0.0008087015151977539,
+      "time_std": 7.904220874067655e-05,
+      "time_median": 0.0007832050323486328,
+      "time_min": 0.0007143020629882812,
+      "time_max": 0.001377105712890625,
+      "discretionary_used_mean": 1.58,
       "quality": {
         "match_rate": 0.0,
-        "cost_diff_mean": 0.1479320226184135,
-        "cost_diff_std": 0.030082186102617415,
-        "cost_ratio_mean": 2.1688672971374827,
-        "cost_ratio_std": 0.2931178826327898,
-        "node_overlap_mean": 0.8944714285714286,
-        "edge_overlap_mean": 0.47607619047619043
+        "cost_diff_mean": 0.14584552715538968,
+        "cost_diff_std": 0.03146481955634501,
+        "cost_ratio_mean": 2.15570549783798,
+        "cost_ratio_std": 0.30146353926451513,
+        "node_overlap_mean": 0.8992321428571429,
+        "edge_overlap_mean": 0.4796309523809523
       }
     },
     "9": {
-      "n": 400,
-      "n_total": 400,
+      "n": 1000,
+      "n_total": 1000,
       "success_rate": 1.0,
-      "cost_mean": 0.3166228770942945,
-      "cost_std": 0.03545218842576776,
-      "cost_median": 0.31565441596973975,
-      "cost_min": 0.22395833333333334,
+      "cost_mean": 0.3167827669451496,
+      "cost_std": 0.03581268152637033,
+      "cost_median": 0.31514393965622156,
+      "cost_min": 0.234375,
       "cost_max": 0.4164156626506024,
-      "cost_cv": 11.196976273830531,
-      "time_mean": 0.0012058371305465698,
-      "time_std": 0.000928162072337701,
-      "time_median": 0.0010995864868164062,
-      "time_min": 0.0010139942169189453,
-      "time_max": 0.019479990005493164,
-      "discretionary_used_mean": 1.6275,
+      "cost_cv": 11.305123025385793,
+      "time_mean": 0.0011325070858001708,
+      "time_std": 9.997112685405329e-05,
+      "time_median": 0.0011026859283447266,
+      "time_min": 0.0010311603546142578,
+      "time_max": 0.0019080638885498047,
+      "discretionary_used_mean": 1.614,
       "quality": {
         "match_rate": 0.0,
-        "cost_diff_mean": 0.19561080874806486,
-        "cost_diff_std": 0.03492068152004672,
-        "cost_ratio_mean": 2.618847820003599,
-        "cost_ratio_std": 0.36134600247640075,
-        "node_overlap_mean": 0.891015873015873,
-        "edge_overlap_mean": 0.402552380952381
+        "cost_diff_mean": 0.1940700314737306,
+        "cost_diff_std": 0.035726364924496205,
+        "cost_ratio_mean": 2.6000287174618517,
+        "cost_ratio_std": 0.35900202358749,
+        "node_overlap_mean": 0.8913789682539683,
+        "edge_overlap_mean": 0.3953095238095238
+      }
+    },
+    "10": {
+      "n": 1000,
+      "n_total": 1000,
+      "success_rate": 1.0,
+      "cost_mean": 0.2798798526889514,
+      "cost_std": 0.031644298247251415,
+      "cost_median": 0.2776201899422702,
+      "cost_min": 0.2092794612794613,
+      "cost_max": 0.37003201141132175,
+      "cost_cv": 11.30638663098761,
+      "time_mean": 0.0016920595169067382,
+      "time_std": 0.0015009925641277229,
+      "time_median": 0.0015619993209838867,
+      "time_min": 0.0014224052429199219,
+      "time_max": 0.030176639556884766,
+      "discretionary_used_mean": 1.696,
+      "quality": {
+        "match_rate": 0.0,
+        "cost_diff_mean": 0.17359666762514786,
+        "cost_diff_std": 0.03066230778134004,
+        "cost_ratio_mean": 2.6440842384148007,
+        "cost_ratio_std": 0.35001366908409404,
+        "node_overlap_mean": 0.8699237270665843,
+        "edge_overlap_mean": 0.362063234384663
       }
     }
   },
-  "timestamp_started": "2026-02-11 08:47:57",
-  "total_execution_time": 2.2313284873962402,
-  "timestamp_updated": "2026-02-14 12:12:34"
+  "timestamp_started": "2026-02-28 12:01:31",
+  "total_execution_time": 11.810363531112671,
+  "timestamp_updated": "2026-02-28 12:01:58"
 }
