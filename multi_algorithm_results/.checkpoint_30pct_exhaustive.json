@@ -153,6 +153,33 @@
         "success": true,
         "cost": 0.11790931843315289
       }
+    ],
+    "10": [
+      {
+        "seed": 1,
+        "success": true,
+        "cost": 0.11250183793170612
+      },
+      {
+        "seed": 2,
+        "success": true,
+        "cost": 0.14636320176259066
+      },
+      {
+        "seed": 3,
+        "success": true,
+        "cost": 0.14124983326663998
+      },
+      {
+        "seed": 4,
+        "success": true,
+        "cost": 0.11503267973856209
+      },
+      {
+        "seed": 5,
+        "success": true,
+        "cost": 0.13894470885480933
+      }
     ]
   },
   "nodes_status": {
@@ -173,6 +200,10 @@
       "status": "complete"
     },
     "9": {
+      "complete_up_to_seed": 400,
+      "status": "complete"
+    },
+    "10": {
       "complete_up_to_seed": 400,
       "status": "complete"
     }
@@ -262,9 +293,26 @@
       "time_min": 28.72389554977417,
       "time_max": 31.741792917251587,
       "discretionary_used_mean": 1.6525
+    },
+    "10": {
+      "n": 400,
+      "n_total": 400,
+      "success_rate": 1.0,
+      "cost_mean": 0.1264210255625809,
+      "cost_std": 0.012221307202194756,
+      "cost_median": 0.125926107051396,
+      "cost_min": 0.09818962572585761,
+      "cost_max": 0.16024253524253523,
+      "cost_cv": 9.667147650328916,
+      "time_mean": 908.2762656211853,
+      "time_std": 10.187540702209791,
+      "time_median": 905.4679659605026,
+      "time_min": 896.3329145908356,
+      "time_max": 966.957658290863,
+      "discretionary_used_mean": 2.11
     }
   },
   "timestamp_started": "2026-02-12 11:17:33",
   "total_execution_time": 6677.363020181656,
-  "timestamp_updated": "2026-02-13 17:20:29"
+  "timestamp_updated": "2026-02-27 22:26:00"
 }

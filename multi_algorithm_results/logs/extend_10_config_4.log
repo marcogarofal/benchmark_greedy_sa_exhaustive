@@ -1,0 +1,104 @@
+
+====================================================================================================
+MULTI-ALGORITHM BENCHMARK CONFIGURATIONS
+====================================================================================================
+
+ 1. 10pct_exhaustive
+    Discretionary: 10% | Algorithm: exhaustive
+    📂 Checkpoint: 400 seeds, nodes [5, 6, 7, 8, 9]
+
+ 2. 10pct_greedy
+    Discretionary: 10% | Algorithm: greedy
+    📂 Checkpoint: 400 seeds, nodes [5, 6, 7, 8, 9]
+
+ 3. 10pct_sa
+    Discretionary: 10% | Algorithm: sa
+
+ 4. 30pct_exhaustive
+    Discretionary: 30% | Algorithm: exhaustive
+    📂 Checkpoint: 400 seeds, nodes [5, 6, 7, 8, 9]
+
+ 5. 30pct_greedy
+    Discretionary: 30% | Algorithm: greedy
+    📂 Checkpoint: 400 seeds, nodes [5, 6, 7, 8, 9]
+
+ 6. 30pct_sa
+    Discretionary: 30% | Algorithm: sa
+
+ 7. 50pct_exhaustive
+    Discretionary: 50% | Algorithm: exhaustive
+    📂 Checkpoint: 400 seeds, nodes [5, 6, 7, 8, 9, 10]
+
+ 8. 50pct_greedy
+    Discretionary: 50% | Algorithm: greedy
+    ⭐ Includes QUALITY metrics (vs exhaustive)
+    📂 Checkpoint: 400 seeds, nodes [5, 6, 7, 8, 9]
+
+ 9. 50pct_sa
+    Discretionary: 50% | Algorithm: sa
+    ⭐ Includes QUALITY metrics (vs exhaustive)
+
+====================================================================================================
+Total: 9 configurations
+Performance: 9 configs (3 ratios × 3 algorithms)
+Quality: Only configs 8-9 (50% greedy/SA vs exhaustive)
+Cost function: EXHAUSTIVE (normalized edge+degree) for ALL algorithms
+Output: multi_algorithm_results/
+====================================================================================================
+
+
+====================================================================================================
+EXTENDING: 30pct_exhaustive
+====================================================================================================
+Current nodes: [5, 6, 7, 8, 9]
+Max seed: 400
+  ➕ Node 10: NEW
+
+Total tests: 400
+====================================================================================================
+
+Processing node 10 (seeds 1→400)...
+  Checkpoint at seed 10/400
+  Checkpoint at seed 20/400
+  Checkpoint at seed 30/400
+  Checkpoint at seed 40/400
+  Checkpoint at seed 50/400
+  Checkpoint at seed 60/400
+  Checkpoint at seed 70/400
+  Checkpoint at seed 80/400
+  Checkpoint at seed 90/400
+  Checkpoint at seed 100/400
+  Checkpoint at seed 110/400
+  Checkpoint at seed 120/400
+  Checkpoint at seed 130/400
+  Checkpoint at seed 140/400
+  Checkpoint at seed 150/400
+  Checkpoint at seed 160/400
+  Checkpoint at seed 170/400
+  Checkpoint at seed 180/400
+  Checkpoint at seed 190/400
+  Checkpoint at seed 200/400
+  Checkpoint at seed 210/400
+  Checkpoint at seed 220/400
+  Checkpoint at seed 230/400
+  Checkpoint at seed 240/400
+  Checkpoint at seed 250/400
+  Checkpoint at seed 260/400
+  Checkpoint at seed 270/400
+  Checkpoint at seed 280/400
+  Checkpoint at seed 290/400
+  Checkpoint at seed 300/400
+  Checkpoint at seed 310/400
+  Checkpoint at seed 320/400
+  Checkpoint at seed 330/400
+  Checkpoint at seed 340/400
+  Checkpoint at seed 350/400
+  Checkpoint at seed 360/400
+  Checkpoint at seed 370/400
+  Checkpoint at seed 380/400
+  Checkpoint at seed 390/400
+  Checkpoint at seed 400/400
+  ✓ Node 10 complete
+
+✓ Extension complete: multi_algorithm_results/.checkpoint_30pct_exhaustive.pkl
+
