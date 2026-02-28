@@ -1,0 +1,15 @@
+for config in 10pct 30pct 50pct; do
+    echo "=== ${config} exhaustive ==="
+    python3 -c "
+import json
+try:
+    cp = json.load(open('multi_algorithm_results/.checkpoint_${config}_exhaustive.json', 'r'))
+    if '10' in cp['nodes_status']:
+        status = cp['nodes_status']['10']
+        print(f'  Node 10: {status[\"status\"]} - seed {status[\"complete_up_to_seed\"]}/400')
+    else:
+        print('  Node 10: not started')
+except FileNotFoundError:
+    print('  Checkpoint not found')
+"
+done
